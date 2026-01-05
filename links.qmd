@@ -13,7 +13,7 @@ Code
 
 Resources
 
-- [Canvas website](https://canvas.duke.edu/courses/51309)
+- [Canvas website](https://canvas.duke.edu/courses/73430)
     - Find announcements and grades here. 
     - Solutions uploaded here under "Files" tab on the left hand side.
     - Recorded zoom lectures uploaded here under "Pages" tab on the left hand side.

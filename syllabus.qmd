@@ -1,8 +1,8 @@
 ---
-title: |
+title: "Bayesian Statistical Modeling and Data Analysis"
+subtitle: |
   | STA602
-  | Bayesian Statistical Modeling and Data Analysis
-subtitle: "Spring 2025"
+  | Spring 2026
 format:
   html: 
     page-layout: full
@@ -21,7 +21,7 @@ By the end of this course students should feel comfortable (1) writing Bayesian 
 
 {{< include _logistics.qmd >}}
 
-Course website: [sta602-sp25.github.io](https://sta602-sp25.github.io/)
+Course website: [sta602-sp26.github.io](https://sta602-sp26.github.io/)
 
 <!-- Instructor: Dr. Alexander Fisher   -->
 <!-- TA: TBD   -->

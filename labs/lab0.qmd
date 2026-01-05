@@ -123,7 +123,7 @@ for (i in 1:5) {
 }
 
 # if else example
-x = 1
+x <- 1
 if(x > 0) {
   print("I'm positive x is greater than 0.")
 } else {
@@ -163,7 +163,7 @@ studentB
 ```
 
 
-5. An example of plotting pdfs and pmfs with `ggplot` (loaded via the `tidyverse` package.)
+5. Read through the below example of plotting pdfs and pmfs with `ggplot` (loaded via the `tidyverse` package.)
 
 :::panel-tabset 
 
@@ -172,7 +172,7 @@ studentB
 #| eval: true
 #| warning: false
 library(tidyverse)
-x = c(-3, 3) # values over which to plot
+x <- c(-3, 3) # values over which to plot
 df = data.frame(x) # create a data frame for ggplot purposes
 df %>%
   ggplot(aes(x = x)) +
@@ -187,7 +187,7 @@ df %>%
 #| echo: true
 #| warning: false
 library(tidyverse)
-df2 = data.frame(x = 0:6)
+df2 <- data.frame(x = 0:6)
 df2 %>%
   mutate(y2 = dpois(x, 2)) %>%
   ggplot(aes(x = x, y = y2)) + 
@@ -199,7 +199,7 @@ df2 %>%
 #| eval: true
 #| echo: false
 #| warning: false
-df2 = data.frame(x = 0:6)
+df2 <- data.frame(x = 0:6)
 df2 %>%
   mutate(y2 = dpois(x, 2)) %>%
   ggplot(aes(x = x, y = y2)) + 
@@ -208,6 +208,37 @@ df2 %>%
 ```
 
 :::
+
+6. Explain which statistical model from the [distribution sheet](notes/exam-notes.html) could have generated each of the data sets below. Hint: it may help to plot the data sets
+
+```{r}
+data1 <- c(9.044592,  9.804848, 11.063202, 12.085383,  9.680034, 10.168844,
+           10.540789,  8.661815, 10.231711, 10.247489, 11.080546, 10.169594,
+           9.838823, 11.889933, 10.742557,  9.928690, 10.587596, 10.031918,
+           10.315063, 10.101993)
+```
+
+```{r}
+data2 <- c(4, 4, 5, 0, 4, 6, 3, 4, 3, 4)
+```
+
+```{r}
+data3 <- c(1.18825395, 2.57183078, 1.05119308, 2.63406797, 1.12418380,
+           0.85031455, 0.09488383, 0.67417683, 0.66699579, 0.82163458,
+           0.72360220, 0.64765112, 2.86808090, 0.55876890, 0.98459153,
+           0.68735814, 5.27914553, 1.09973419, 1.56445467, 0.04617307,
+           0.25353930, 0.42461178, 0.02088414, 1.36577545, 1.76013588)
+```
+
+```{r}
+data4 <- c(0.3676817, 0.6955758, 0.4337111, 0.2772309, 0.5229322, 0.9838285,
+           0.3119829, 0.9724755, 0.8923416, 0.6458975, 0.5193378, 0.3060158,
+           0.4002590, 0.3615803, 0.7987921)
+```
+
+```{r}
+data5 <- c(0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1)
+```
 
 
 ## Style guidelines

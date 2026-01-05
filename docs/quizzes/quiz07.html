@@ -1,299 +1,616 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Password Protected Page</title>
-    <style>
-        html, body {
-            margin: 0;
-            width: 100%;
-            height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        #dialogText {
-            color: white;
-            background-color: #333333;
-        }
-        
-        #dialogWrap {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: table;
-            background-color: #EEEEEE;
-        }
-        
-        #dialogWrapCell {
-            display: table-cell;
-            text-align: center;
-            vertical-align: middle;
-        }
-        
-        #mainDialog {
-            max-width: 400px;
-            margin: 5px;
-            border: solid #AAAAAA 1px;
-            border-radius: 10px;
-            box-shadow: 3px 3px 5px 3px #AAAAAA;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #FFFFFF;
-            overflow: hidden;
-            text-align: left;
-        }
-        #mainDialog > * {
-            padding: 10px 30px;
-        }
-        #passArea {
-            padding: 20px 30px;
-            background-color: white;
-        }
-        #passArea > * {
-            margin: 5px auto;
-        }
-        #pass {
-            width: 100%;
-            height: 40px;
-            font-size: 30px;
-        }
-        
-        #messageWrapper {
-            float: left;
-            vertical-align: middle;
-            line-height: 30px;
-        }
-        
-        .notifyText {
-            display: none;
-        }
-        
-        #invalidPass {
-            color: red;
-        }
-        
-        #success {
-            color: green;
-        }
-        
-        #submitPass {
-            font-size: 20px;
-            border-radius: 5px;
-            background-color: #E7E7E7;
-            border: solid gray 1px;
-            float: right;
-            cursor: pointer;
-        }
-        #contentFrame {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        #attribution {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            text-align: center;
-            padding: 10px;
-            font-weight: bold;
-            font-size: 0.8em;
-        }
-        #attribution, #attribution a {
-            color: #999;
-        }
-        .error {
-            display: none;
-            color: red;
-        }
-    </style>
-  </head>
-  <body>
-    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
-    <div id="dialogWrap">
-        <div id="dialogWrapCell">
-            <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
-                <div id="passArea">
-                    <p id="passwordPrompt">Password</p>
-                    <input id="pass" type="password" name="pass" autofocus>
-                    <div>
-                        <span id="messageWrapper">
-                            <span id="invalidPass" class="error">Sorry, please try again.</span>
-                            <span id="trycatcherror" class="error">Sorry, something went wrong.</span>
-                            <span id="success" class="notifyText">Success!</span>
-                            &nbsp;
-                        </span>
-                        <button id="submitPass" type="button">Submit</button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-                <div id="securecontext" class="error">
-                    <p>
-                        Sorry, but password protection only works over a secure connection. Please load this page via HTTPS.
-                    </p>
-                </div>
-                <div id="nocrypto" class="error">
-                    <p>
-                        Your web browser appears to be outdated. Please visit this page using a modern browser.
-                    </p>
-                </div>
-            </div>
-        </div>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Quiz 7 – STA602</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-daeb2a00b4514a77614cc4c73639220f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+<script src="../site_libs/countdown-0.4.0/countdown.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">STA602</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../notes/exam-notes.html"> 
+<span class="menu-text">distributions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../chapterSummaries.html"> 
+<span class="menu-text">notes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../links.html"> 
+<span class="menu-text">links</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link active" data-scroll-target="#exercise-1">Exercise 1</a></li>
+  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise 2</a></li>
+  <li><a href="#exercise-3" id="toc-exercise-3" class="nav-link" data-scroll-target="#exercise-3">Exercise 3</a></li>
+  </ul>
+</nav>
     </div>
-    <div id="attribution">
-        Protected by <a href="https://www.maxlaumeister.com/pagecrypt/">PageCrypt</a>
-    </div>
-    <script>
-    (function() {
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-        var pl = "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";
-        
-        var submitPass = document.getElementById('submitPass');
-        var passEl = document.getElementById('pass');
-        var invalidPassEl = document.getElementById('invalidPass');
-        var trycatcherror = document.getElementById('trycatcherror');
-        var successEl = document.getElementById('success');
-        var contentFrame = document.getElementById('contentFrame');
-        
-        // Sanity checks
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Quiz 7</h1>
+</div>
 
-        if (pl === "") {
-            submitPass.disabled = true;
-            passEl.disabled = true;
-            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
-            return;
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>To receive credit for this assignment, write your full name at the top of your paper.</p>
+<section id="exercise-1" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1">Exercise 1</h3>
+<p>Let <span class="math inline">\(\hat{\theta}\)</span> be an estimator of <span class="math inline">\(\theta\)</span>. What does it mean for <span class="math inline">\(\hat{\theta}\)</span> to be unbiased?</p>
+</section>
+<section id="exercise-2" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-2">Exercise 2</h3>
+<p><code>TRUE</code> or <code>FALSE</code>: Bayes factors do not depend on priors.</p>
+</section>
+<section id="exercise-3" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-3">Exercise 3</h3>
+<p><code>TRUE</code> or <code>FALSE</code>: <span class="math inline">\(\theta \sim N(\bar{y}, 1)\)</span> is a proper prior.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_354a7129" data-update-every="1" tabindex="0" style="right:0;bottom:0;font-size:4em;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-
-        if (!isSecureContext) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#securecontext").style.display = "block";
-            return;
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
-
-        if (!crypto.subtle) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#nocrypto").style.display = "block";
-            return;
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
         }
-        
-        function str2ab(str) {
-            var ustr = atob(str);
-            var buf = new ArrayBuffer(ustr.length);
-            var bufView = new Uint8Array(buf);
-            for (var i=0, strLen=ustr.length; i < strLen; i++) {
-                bufView[i] = ustr.charCodeAt(i);
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
             }
-            return bufView;
-        }
-
-        async function deriveKey(salt, password) {
-            const encoder = new TextEncoder()
-            const baseKey = await crypto.subtle.importKey(
-                'raw',
-                encoder.encode(password),
-                'PBKDF2',
-                false,
-                ['deriveKey'],
-            )
-            return await crypto.subtle.deriveKey(
-                { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
-                baseKey,
-                { name: 'AES-GCM', length: 256 },
-                true,
-                ['decrypt'],
-            )
-        }
-        
-        async function doSubmit(evt) {
-            submitPass.disabled = true;
-            passEl.disabled = true;
-
-            let iv, ciphertext, key;
-            
-            try {
-                var unencodedPl = str2ab(pl);
-
-                const salt = unencodedPl.slice(0, 32)
-                iv = unencodedPl.slice(32, 32 + 16)
-                ciphertext = unencodedPl.slice(32 + 16)
-
-                key = await deriveKey(salt, passEl.value);
-            } catch (e) {
-                trycatcherror.style.display = "inline";
-                console.error(e);
-                return;
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-
-            try {
-                const decryptedArray = new Uint8Array(
-                    await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
-                );
-
-                let decrypted = new TextDecoder().decode(decryptedArray);
-
-                if (decrypted === "") throw "No data returned";
-
-                const basestr = '<base href="." target="_top">';
-                const anchorfixstr = `
-                    <script>
-                        Array.from(document.links).forEach((anchor) => {
-                            const href = anchor.getAttribute("href");
-                            if (href.startsWith("#")) {
-                                anchor.addEventListener("click", function(e) {
-                                    e.preventDefault();
-                                    const targetId = this.getAttribute("href").substring(1);
-                                    const targetEl = document.getElementById(targetId);
-                                    targetEl.scrollIntoView();
-                                });
-                            }
-                        });
-                    <\/script>
-                `;
-                
-                // Set default iframe link targets to _top so all links break out of the iframe
-                if (decrypted.includes("<head>")) decrypted = decrypted.replace("<head>", "<head>" + basestr);
-                else if (decrypted.includes("<!DOCTYPE html>")) decrypted = decrypted.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + basestr);
-                else decrypted = basestr + decrypted;
-
-                // Fix fragment links
-                if (decrypted.includes("</body>")) decrypted = decrypted.replace("</body>", anchorfixstr + '</body>');
-                else if (decrypted.includes("</html>")) decrypted = decrypted.replace("</html>", anchorfixstr + '</html>');
-                else decrypted = decrypted + anchorfixstr;
-                
-                contentFrame.srcdoc = decrypted;
-                
-                successEl.style.display = "inline";
-                setTimeout(function() {
-                    dialogWrap.style.display = "none";
-                }, 1000);
-            } catch (e) {
-                invalidPassEl.style.display = "inline";
-                passEl.value = "";
-                submitPass.disabled = false;
-                passEl.disabled = false;
-                console.error(e);
-                return;
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
         }
-        
-        submitPass.onclick = doSubmit;
-        passEl.onkeypress = function(e){
-            if (!e) e = window.event;
-            var keyCode = e.keyCode || e.which;
-            invalidPassEl.style.display = "none";
-            if (keyCode == '13'){
-              // Enter pressed
-              doSubmit();
-              return false;
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
             }
-        }
-    })();
-    </script>
-  </body>
-</html>
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

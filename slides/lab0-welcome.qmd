@@ -15,7 +15,7 @@ library(countdown)
 
 -   Introduce yourself (icebreaker)
 
--   Follow along these slides on the course website (under slides): [sta602-sp25.github.io](https://sta602-sp25.github.io)
+-   Follow along these slides on the course website (under notes): [sta602-sp26.github.io](https://sta602-sp26.github.io)
 
 -   Bookmark this!
     It's the course website.
@@ -29,12 +29,12 @@ library(countdown)
 ## Tips
 
 -   Show up.
--   Make use of [office hours](https://sta602-sp25.github.io/syllabus.html). Before you need help!
+-   Make use of [office hours](/syllabus.html). Before you need help!
 
 
 ## Beginnings
 
-While this is not a computing class, computers are the workhorse of Bayesian statistics and we will use R to both enhance understanding of fundamental course material as well as to implement models to learn about real data sets.
+While this is not a computing class, computers are the workhorse of Bayesian statistics and we will use R to both enhance understanding of fundamental course material as well as to implement inference machinery to answer questions about real data sets.
 
 ## Set up RStudio
 
@@ -48,7 +48,7 @@ If you haven't previously done so, you will need to reserve a container for `RSt
 
 ## Set up RStudio
 
-### Option 2: RStudio on your computer
+### Option 2 (recommended): RStudio on your computer
 
 - Download `R` from [http://www.r-project.org/](http://www.r-project.org/).
 
@@ -56,7 +56,7 @@ If you haven't previously done so, you will need to reserve a container for `RSt
 
 - (optionally) download Quarto from [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/)
 
-## Demo
+## Getting started
 
-Next, check your familarity with R/RStudio fundamentals [here](/labs/lab0.html). You can also find a link to this from the [course schedule](/index.html) under "Assignment".
+Click [here](/labs/lab0.html) to go through a series of exercises that cover essential skills needed to succeed in this course. You can also find a link to "lab 0" by clicking on "Hello R" from the [course schedule](/index.html) under "Assignment".
 
