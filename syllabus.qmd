@@ -62,8 +62,8 @@ Part II: Statistical model building and analysis
 
 | Assignment          | Description                        |
 |---------------------|------------------------------------|
-| Homework (40%)          | Individual take-home assignments, submitted to Gradescope.      |
-| Midterms (30%)         | Two in-class exams.    |
+| Homework (25%)          | Individual take-home assignments, submitted to Gradescope.      |
+| Midterms (45%)         | Two in-class exams.    |
 | Final exam (25%) | Cumulative final during final's week.   |
 | Quizzes (5%)       | In-class pop quizzes.         |
 
