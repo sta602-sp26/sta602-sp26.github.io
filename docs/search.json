@@ -683,7 +683,7 @@
     "href": "index.html",
     "title": "Bayesian statistical modeling and data analysis",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab\n\n\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n\n\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n\n\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n\n\n\n\n4\nMon Jan 26\nlab\n\n\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n\n\n\n\n\n\nThu Jan 29\npredictive checks and MC error\n\n\n\n\n\n5\nMon Feb 02\nlab\n\n\n\n\n\n\nTue Feb 03\nthe normal model\n\n\n\n\n\n\nThu Feb 05\nestimators\n\n\n\n\n\n6\nMon Feb 09\nlab\n\n\n\n\n\n\nTue Feb 10\npriors\n\n\n\n\n\n\nThu Feb 12\nreview\n\n\n\n\n\n7\nMon Feb 16\nlab\n\n\n\n\n\n\nTue Feb 17\nexam I\n\n\n\n\n\n\nThu Feb 19\n\n\n\n\n\n\n8\nMon Feb 23\n\n\n\n\n\n\n\nTue Feb 24\n\n\n\n\n\n\n\nThu Feb 26\n\n\n\n\n\n\n9\nMon Mar 02\n\n\n\n\n\n\n\nTue Mar 03\n\n\n\n\n\n\n\nThu Mar 05\n\n\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\n\n\n\n\n\n\n\nTue Mar 17\n\n\n\n\n\n\n\nThu Mar 19\n\n\n\n\n\n\n12\nMon Mar 23\n\n\n\n\n\n\n\nTue Mar 24\n\n\n\n\n\n\n\nThu Mar 26\n\n\n\n\n\n\n13\nMon Mar 30\n\n\n\n\n\n\n\nTue Mar 31\n\n\n\n\n\n\n\nThu Apr 02\n\n\n\n\n\n\n14\nMon Apr 06\n\n\n\n\n\n\n\nTue Apr 07\n\n\n\n\n\n\n\nThu Apr 09\n\n\n\n\n\n\n15\nMon Apr 13\n\n\n\n\n\n\n\nTue Apr 14"
+    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n\n\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n\n\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n\n\n\n\n4\nMon Jan 26\nlab\n\n\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n\n\n\n\n\n\nThu Jan 29\npredictive checks and MC error\n\n\n\n\n\n5\nMon Feb 02\nlab\n\n\n\n\n\n\nTue Feb 03\nthe normal model\n\n\n\n\n\n\nThu Feb 05\nestimators\n\n\n\n\n\n6\nMon Feb 09\nlab\n\n\n\n\n\n\nTue Feb 10\npriors\n\n\n\n\n\n\nThu Feb 12\nreview\n\n\n\n\n\n7\nMon Feb 16\nlab\n\n\n\n\n\n\nTue Feb 17\nexam I\n\n\n\n\n\n\nThu Feb 19\n\n\n\n\n\n\n8\nMon Feb 23\n\n\n\n\n\n\n\nTue Feb 24\n\n\n\n\n\n\n\nThu Feb 26\n\n\n\n\n\n\n9\nMon Mar 02\n\n\n\n\n\n\n\nTue Mar 03\n\n\n\n\n\n\n\nThu Mar 05\n\n\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\n\n\n\n\n\n\n\nTue Mar 17\n\n\n\n\n\n\n\nThu Mar 19\n\n\n\n\n\n\n12\nMon Mar 23\n\n\n\n\n\n\n\nTue Mar 24\n\n\n\n\n\n\n\nThu Mar 26\n\n\n\n\n\n\n13\nMon Mar 30\n\n\n\n\n\n\n\nTue Mar 31\n\n\n\n\n\n\n\nThu Apr 02\n\n\n\n\n\n\n14\nMon Apr 06\n\n\n\n\n\n\n\nTue Apr 07\n\n\n\n\n\n\n\nThu Apr 09\n\n\n\n\n\n\n15\nMon Apr 13\n\n\n\n\n\n\n\nTue Apr 14"
   },
   {
     "objectID": "hw/hw04.html",
@@ -1640,44 +1640,44 @@
   {
     "objectID": "slides/lab1.html#example-normal-likelihood",
     "href": "slides/lab1.html#example-normal-likelihood",
-    "title": "Maximum likelihood estimator",
-    "section": "",
-    "text": "Let \\(X\\) be the resting heart rate (RHR) in beats per minute of a student in this class.\nAssume RHR is normally distributed with some mean \\(\\mu\\) and standard deviation \\(8\\).\n. . .\n\\[\n\\textbf{Data-generative model: } X_i \\overset{\\mathrm{iid}}{\\sim} N(\\mu, 64)\n\\]\n. . .\nIf we observe three student heart rates, {75, 58, 68} then our likelihood\n\\[L(\\mu) = f_x(75 |\\mu) \\cdot f_x(58|\\mu) \\cdot f_x(68|\\mu).\\]\nThat is, the joint density function of the observed data, viewed as a function of the parameter.\n. . .\n\n\n\n\n\n\nImportant\n\n\n\nThe likelihood itself is not a density function. The integral with respect to the parameter does not need to equal 1."
+    "title": "Maximum likelihood estimators",
+    "section": "Example: normal likelihood",
+    "text": "Example: normal likelihood\nLet \\(X\\) be the resting heart rate (RHR) in beats per minute of a student in this class.\nAssume RHR is normally distributed with some mean \\(\\mu\\) and standard deviation \\(8\\).\n\n\\[\n\\textbf{Data-generative model: } X_i \\overset{\\mathrm{iid}}{\\sim} N(\\mu, 64)\n\\]\n\n\nIf we observe three student heart rates, {75, 58, 68} then our likelihood \\[L(\\mu) = f_x(75 |\\mu) \\cdot f_x(58|\\mu) \\cdot f_x(68|\\mu).\\] That is, the joint density function of the observed data, viewed as a function of the parameter.\n\n\n\n\n\n\n\n\nImportant\n\n\nThe likelihood itself is not a density function of the unknown parameter(s). The integral with respect to the parameter does not need to equal 1.\n\n\n\n\n\n\n\n\n\nDefinition\n\n\nThe likelihood function is the joint density (or mass function) of the data viewed as a function of the unknown parameter(s)."
   },
   {
     "objectID": "slides/lab1.html#visualizing-the-likelihood",
     "href": "slides/lab1.html#visualizing-the-likelihood",
-    "title": "Maximum likelihood estimator",
-    "section": "",
-    "text": "\\[L(\\mu) = f_x(75 |\\mu) \\cdot f_x(58|\\mu) \\cdot f_x(68|\\mu).\\]\n\ndatalikelihood functionplotplot code\n\n\n\nx = c(75, 58, 68)\n\n\n\n\nL = function(mu, x) {\n  stopifnot(is.numeric(x))\n  n = length(x)\n  likelihood = 1\n  for(i in 1:n){\n    likelihood = likelihood * dnorm(x[i], mean = mu, sd = 8)\n  }\n  return(likelihood)\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot() +\n  xlim(c(50, 83)) +\n  geom_function(fun = L, args = list(x = x)) +\n  theme_bw() +\n  labs(x = expression(mu), y = \"likelihood\") + \n  geom_vline(xintercept = 67, color = 'red')\n\n\n\n\n. . .\nThe maximum likelihood estimate \\(\\hat{\\mu} = \\frac{75 + 58 + 68}{3} = 67\\).\nThe maximum likelihood estimate is the parameter value that maximizes the likelihood function."
+    "title": "Maximum likelihood estimators",
+    "section": "Visualizing the likelihood",
+    "text": "Visualizing the likelihood\n\\[L(\\mu) = f_x(75 |\\mu) \\cdot f_x(58|\\mu) \\cdot f_x(68|\\mu).\\] The maximum likelihood estimate \\(\\hat{\\mu} = \\frac{75 + 58 + 68}{3} = 67\\).\nThe maximum likelihood estimate is the parameter value that maximizes the likelihood function.\n\ndatalikelihood functionplotplot code\n\n\n\nx = c(75, 58, 68)\n\n\n\n\nL = function(mu, x) {\n  stopifnot(is.numeric(x))\n  n = length(x)\n  likelihood = 1\n  for(i in 1:n){\n    likelihood = likelihood * dnorm(x[i], mean = mu, sd = 8)\n  }\n  return(likelihood)\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot() +\n  xlim(c(50, 83)) +\n  geom_function(fun = L, args = list(x = x)) +\n  theme_bw() +\n  labs(x = expression(mu), y = \"likelihood\") + \n  geom_vline(xintercept = 67, color = 'red')"
   },
   {
     "objectID": "slides/lab1.html#the-log-likelihood",
     "href": "slides/lab1.html#the-log-likelihood",
-    "title": "Maximum likelihood estimator",
-    "section": "",
-    "text": "Notice how small the y-axis is on the previous slide. What happens to the scale of the likelihood as we add additional data points?\n\\[\nL(\\mu) = \\prod_{i = 1}^{n} f_x(x_i |\\mu)\n\\]\n. . .\nSince densities often evaluate between 0 and 1, multiplying many together (as we usually do in likelihoods) can quickly result in floating point underflow. That is, numbers smaller than the computer can actually represent in memory.\n\nNote: sometimes densities evaluate to greater than 1 (e.g. dnorm(0, 0, 0.001)) and multiplying several together can result in overflow.\n\n. . .\n\n\n\nlog is a monotonic function, i.e. \\(x &gt; y\\) implies \\(\\log(x) &gt; \\log(y)\\), because of this the maximum of \\(f\\) is the same as the maximum of \\(\\log f\\).\nadditionally, log turns products into sums\n\nin practice, we always work with the log-likelihood,\n\\[\n\\log L(\\mu) = \\sum_{i = 1}^n \\log f_x(x_i | \\mu).\n\\]"
+    "title": "Maximum likelihood estimators",
+    "section": "The log-likelihood",
+    "text": "The log-likelihood\nNotice how small the y-axis is on the previous slide. What happens to the scale of the likelihood as we add additional data points?\n\\[\nL(\\mu) = \\prod_{i = 1}^{n} f_x(x_i |\\mu)\n\\]\n\nSince densities often evaluate between 0 and 1, multiplying many together (as we usually do in likelihoods) can quickly result in floating point underflow. That is, numbers smaller than the computer can actually represent in memory.\n\nNote: sometimes densities evaluate to greater than 1 (e.g. dnorm(0, 0, 0.001)) and multiplying several together can result in overflow.\n\n\n\nlog to the rescue!\n\nlog is a monotonic function, i.e. \\(x &gt; y\\) implies \\(\\log(x) &gt; \\log(y)\\), because of this the maximum of \\(f\\) is the same as the maximum of \\(\\log f\\).\nadditionally, log turns products into sums\n\nin practice, we always work with the log-likelihood,\n\\[\n\\log L(\\mu) = \\sum_{i = 1}^n \\log f_x(x_i | \\mu).\n\\]"
   },
   {
     "objectID": "slides/lab1.html#maximum-likelihood-estimation-mle",
     "href": "slides/lab1.html#maximum-likelihood-estimation-mle",
-    "title": "Maximum likelihood estimator",
+    "title": "Maximum likelihood estimators",
     "section": "Maximum likelihood estimation (MLE)",
-    "text": "Maximum likelihood estimation (MLE)\nHow did we know to take the average of the values to find the maximum likelihood estimator \\(\\hat{\\mu}\\)?\n. . .\nFrom calculus, we know that to maximize a function, we need to find where the slope equals zero (technically, to ensure we find some maxima and not a minima we need to also check that the second derivative is negative).\n\nExample: normal likelihood\nFor the normal likelihood example on the previous slide, we can see visually that the function is concave.\nTo find the maximum,\n\\[\n\\begin{aligned}\n\\frac{d}{d\\mu} \\log L(\\mu) &= \\sum_{i}\\frac{d}{d\\mu} \\log f_x(x_i |\\mu)\\\\\n&= \\sum_{i}\\frac{d}{d\\mu} \\left[ -\\frac{1}{2} \\log (2 \\pi \\sigma^2) - \\frac{1}{2\\sigma^2} (x_i - \\mu)^2 \\right]\\\\\n&= \\sum_i \\frac{1}{\\sigma^2} (x_i - \\mu)\n\\end{aligned}\n\\]\nSetting the derivative equal to zero,\n\\[\n\\begin{aligned}\n\\sum_i \\left[ x_i - \\hat{\\mu} \\right] &= 0\\\\\nn \\hat{\\mu} &= \\sum_i x_i\\\\\n\\hat{\\mu} &= \\bar{x}\n\\end{aligned}\n\\]"
+    "text": "Maximum likelihood estimation (MLE)\nHow did we know to take the average of the values to find the maximum likelihood estimator \\(\\hat{\\mu}\\)?\n\nFrom calculus, we know that to maximize a univariate function, we need to find where the slope equals zero (technically, to ensure we find some maxima and not a minima we need to also check that the second derivative is negative).\nExample: normal likelihood\nFor the normal likelihood example on the previous slide, we can see visually that the function is concave.\n\nStep 1Step 2\n\n\nTo find the maximum, take the derivative\n\\[\n\\begin{aligned}\n\\frac{d}{d\\mu} \\log L(\\mu) &= \\sum_{i}\\frac{d}{d\\mu} \\log f_x(x_i |\\mu)\\\\\n&= \\sum_{i}\\frac{d}{d\\mu} \\left[ -\\frac{1}{2} \\log (2 \\pi \\sigma^2) - \\frac{1}{2\\sigma^2} (x_i - \\mu)^2 \\right]\\\\\n&= \\sum_i \\frac{1}{\\sigma^2} (x_i - \\mu)\n\\end{aligned}\n\\]\n\n\nSet the derivative equal to zero and solve,\n\\[\n\\begin{aligned}\n\\sum_i \\left( x_i - \\hat{\\mu} \\right) &= 0\\\\\nn \\hat{\\mu} &= \\sum_i x_i\\\\\n\\hat{\\mu} &= \\bar{x}\n\\end{aligned}\n\\]"
   },
   {
     "objectID": "slides/lab1.html#exercise-binomial-mle",
     "href": "slides/lab1.html#exercise-binomial-mle",
-    "title": "Maximum likelihood estimator",
+    "title": "Maximum likelihood estimators",
     "section": "Exercise: binomial MLE",
     "text": "Exercise: binomial MLE\nLet \\(Y_1, Y_2,  \\ldots, Y_n \\sim \\text{iid } \\text{binary}(\\theta)\\). Here \\(\\theta\\) is the probability of a success, i.e. \\(prob(Y_i = 1)\\).\n\nNote: a “binary” distribution is equivalent to a “Bernoulli” distribution. Your book calls it “binary”, so we will as well for consistency.\n\n\nWrite down the likelihood, \\(p(y_1, \\ldots, y_n | \\theta)\\).\nWrite down the log-likelihood.\nCompute \\(\\hat{\\theta}_{MLE} = \\text{argmax}_{\\theta}~ \\log p(y_1, \\ldots, y_n | \\theta)\\)"
   },
   {
     "objectID": "slides/lab1.html#solution",
     "href": "slides/lab1.html#solution",
-    "title": "Maximum likelihood estimator",
+    "title": "Maximum likelihood estimators",
     "section": "Solution",
-    "text": "Solution\n\nsolution 1solution 2solution 3\n\n\n\\[\n\\begin{aligned}\np(y_1, \\ldots, y_n | \\theta) &= \\prod_{i=1}^n p(y_i | \\theta)\\\\\n&= \\theta^{y_i}(1-\\theta)^{1-y_i}\\\\\n&= \\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i}\n\\end{aligned}\n\\]\n\n\n\\[\n\\log \\left(\\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i} \\right) =\nn \\bar{y} \\log \\theta + n(1-\\bar{y}) \\log(1 - \\theta)\n\\]\nwhere \\(\\bar{y} = \\frac{1}{n} \\sum_{i=1}^n y_i\\).\n\n\nTake the derivative\n\\[\n\\begin{aligned}\n\\frac{d}{d\\theta} \\log p(y_1, \\ldots, y_n | \\theta) &=\n\\frac{n\\bar{y}}{\\theta} - \\frac{n - n\\bar{y}}{1- \\theta}\n\\end{aligned}\n\\]\nand set equal to 0. After simplifying,\n\\[\n\\hat{\\theta}_{MLE} = \\bar{y}\n\\]"
+    "text": "Solution\n\nsolution 1asolution 1bsolution 1c\n\n\nThe likelihood\n\\[\n\\begin{aligned}\np(y_1, \\ldots, y_n | \\theta) &= \\prod_{i=1}^n p(y_i | \\theta)\\\\\n&= \\theta^{y_i}(1-\\theta)^{1-y_i}\\\\\n&= \\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i}\n\\end{aligned}\n\\]\n\n\nThe log-likelihood\n\\[\n\\log \\left(\\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i} \\right) =\nn \\bar{y} \\log \\theta + n(1-\\bar{y}) \\log(1 - \\theta)\n\\]\nwhere \\(\\bar{y} = \\frac{1}{n} \\sum_{i=1}^n y_i\\).\n\n\nTake the derivative \\[\n\\begin{aligned}\n\\frac{d}{d\\theta} \\log p(y_1, \\ldots, y_n | \\theta) &=\n\\frac{n\\bar{y}}{\\theta} - \\frac{n - n\\bar{y}}{1- \\theta}\n\\end{aligned}\n\\]\nand set equal to 0. After simplifying,\n\\[\n\\hat{\\theta}_{MLE} = \\bar{y}\n\\]"
   },
   {
     "objectID": "notes/lec04-prediction.html",
@@ -2399,5 +2399,61 @@
     "title": "Welcome to Lab",
     "section": "Getting started",
     "text": "Getting started\nClick here to go through a series of exercises that cover essential skills needed to succeed in this course. You can also find a link to “lab 0” by clicking on “Hello R” from the course schedule under “Assignment”."
+  },
+  {
+    "objectID": "slides/lab1.html#exercise-1-binomial-mle",
+    "href": "slides/lab1.html#exercise-1-binomial-mle",
+    "title": "Maximum likelihood estimators",
+    "section": "Exercise 1: binomial MLE",
+    "text": "Exercise 1: binomial MLE\nLet \\(Y_1, Y_2,  \\ldots, Y_n \\sim \\text{iid } \\text{binary}(\\theta)\\). Here \\(\\theta\\) is the probability of a success, i.e. \\(prob(Y_i = 1)\\).\n\nNote: a “binary” distribution is equivalent to a “Bernoulli” distribution. Your book calls it “binary”, so we will as well for consistency.\n\n\nWrite down the likelihood, \\(p(y_1, \\ldots, y_n | \\theta)\\).\nWrite down the log-likelihood.\nCompute \\(\\hat{\\theta}_{MLE} = \\text{argmax}_{\\theta}~ \\log p(y_1, \\ldots, y_n | \\theta)\\)"
+  },
+  {
+    "objectID": "slides/lab1.html#exercise-2",
+    "href": "slides/lab1.html#exercise-2",
+    "title": "Maximum likelihood estimators",
+    "section": "Exercise 2",
+    "text": "Exercise 2\nZero-inflated models allow for frequent zero-valued observations. You observe 100 people at the beach fishing. Click “View data” to see the number of fish each individual catches (reported as fishing_count) below.\n\n\nView data\nfishing_count = c(0, 0, 0, 3, 0, 3, 5, 0, 8, 1,\n                  0, 0, 0, 0, 3, 4, 0, 4, 8, 0,\n                  0, 0, 4, 0, 0, 6, 4, 0, 4, 0,\n                  0, 0, 0, 0, 4, 8, 4, 0, 0, 0,\n                  7, 3, 0, 2, 0, 0, 7, 7, 5, 0,\n                  0, 0, 7, 6, 0, 3, 0, 0, 0, 5,\n                  4, 1, 0, 0, 0, 0, 0, 0, 0, 8,\n                  0, 5, 0, 3, 0, 0, 3, 0, 0, 2,\n                  0, 5, 0, 7, 7, 0, 1, 0, 2, 7,\n                  0, 2, 4, 0, 0, 1, 5, 0, 0, 0)\n\n\nThe data can be described as being generated from a zero-inflated mixture model. Let be the number of fish an individual catches at the beach,\n\\[\n\\begin{aligned}\np(Y_i = 0) &= p +(1 - p)e^{-\\lambda}\\\\\np(Y_i = y_i) &= \\frac{(1-p) \\lambda ^ {y_i} e^{-\\lambda}}{y_i!}, ~y_i = 1, 2, 3, \\ldots\n\\end{aligned}\n\\]\nAssume observations \\(Y_1, \\ldots, Y_{100}\\) are independent.\n\nWrite down the log-likelihood and visualize the log-likelihood as a function of \\(p\\) while fixing \\(\\lambda = 5\\). Repeat for \\(\\lambda = 4\\) (on the same plot).\nBased on your plot, which value of \\(\\lambda\\) is more likely? Assuming these \\(\\lambda\\) are sufficiently close to the true \\(\\lambda\\), what is (approximately) the MLE of \\(p\\) based on your plot?\nCan you find a closed form solution for \\(\\hat{\\lambda}_{MLE}, \\hat{p}_{MLE}\\)? Why or why not?"
+  },
+  {
+    "objectID": "slides/lab1.html#solution-1",
+    "href": "slides/lab1.html#solution-1",
+    "title": "Maximum likelihood estimators",
+    "section": "Solution 1",
+    "text": "Solution 1\n\nsolution 1asolution 1bsolution 1c\n\n\nThe likelihood\n\\[\n\\begin{aligned}\np(y_1, \\ldots, y_n | \\theta) &= \\prod_{i=1}^n p(y_i | \\theta)\\\\\n&= \\theta^{y_i}(1-\\theta)^{1-y_i}\\\\\n&= \\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i}\n\\end{aligned}\n\\]\n\n\nThe log-likelihood\n\\[\n\\log \\left(\\theta^{\\sum {y_i}}(1-\\theta)^{n - \\sum y_i} \\right) =\nn \\bar{y} \\log \\theta + n(1-\\bar{y}) \\log(1 - \\theta)\n\\]\nwhere \\(\\bar{y} = \\frac{1}{n} \\sum_{i=1}^n y_i\\).\n\n\nTake the derivative \\[\n\\begin{aligned}\n\\frac{d}{d\\theta} \\log p(y_1, \\ldots, y_n | \\theta) &=\n\\frac{n\\bar{y}}{\\theta} - \\frac{n - n\\bar{y}}{1- \\theta}\n\\end{aligned}\n\\]\nand set equal to 0. After simplifying,\n\\[\n\\hat{\\theta}_{MLE} = \\bar{y}\n\\]"
+  },
+  {
+    "objectID": "slides/lab1.html#solution-2",
+    "href": "slides/lab1.html#solution-2",
+    "title": "Maximum likelihood estimators",
+    "section": "Solution 2",
+    "text": "Solution 2\n\na (log-likelihood)a (code)a (plot)bc\n\n\n\\[\n\\log \\left(p(Y_i = 0)^{57}\\prod_{i = 1}^{43}  p(Y_i = y_i) \\right) = \\\\\n57 \\log p(Y_i = 0) + \\sum_{i = 1}^{43} \\log p(Y_i = y_i)\n\\]\nwhere\n\\[\n\\begin{aligned}\np(Y_i = 0) &= p + (1-p) e^{-\\lambda}\\\\\np(Y_i = y_i) &= \\frac{(1 - p)\\lambda^{y_i}e^{-\\lambda}}{y_i!}, \\ \\ y_i = 1, 2, 3, \\ldots\n\\end{aligned}\n\\]\n\n\n\nsum(fishing_count == 0)\nfishing_subset = fishing_count[fishing_count != 0 ]\nlength(fishing_subset) # sanity check\n\nprobYzero = function(p, lambda) {\n  prob1 = log(p + ((1 - p) * exp(-lambda)))\n  return(57 * prob1)\n}\n\nlikelihood = function(p, lambda) {\n  total = 0\n  for (i in seq_along(fishing_subset)) {\n    total = total +\n      (log(1 - p) + (fishing_subset[i] * log(lambda)) - lambda) -\n      log(factorial(fishing_subset[i]))\n  }\n  return(probYzero(p, lambda) + total)\n}\nggplot() +\n  xlim(c(0.0, 1)) +\n  geom_function(fun = likelihood, args = list(lambda = 8)) +\n  geom_function(fun = likelihood,\n                args = list(lambda = 4),\n                col = \"red\") +\n  theme_bw() +\n  labs(x = \"p\", y = \"log-likelihood\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\lambda = 4\\) is more likely.\n\\(\\hat{p}_{MLE} \\approx 0.5\\).\n\n\n\nTake the gradient and set equal to zero. Two equations and two unknowns, but you cannot isolate \\(\\hat{\\lambda}\\) when taking the derivative with respect to \\(\\lambda\\). No closed form solution, need to solve numerically, e.g. with Newton’s method."
+  },
+  {
+    "objectID": "slides/lab1.html#a-code",
+    "href": "slides/lab1.html#a-code",
+    "title": "Maximum likelihood estimators",
+    "section": "a (code)",
+    "text": "a (code)\n\nsum(fishing_count == 0)\nfishing_subset = fishing_count[fishing_count != 0 ]\nlength(fishing_subset) # sanity check\n\nprobYzero = function(p, lambda) {\n  prob1 = log(p + ((1 - p) * exp(-lambda)))\n  return(57 * prob1)\n}\n\nlikelihood = function(p, lambda) {\n  total = 0\n  for (i in seq_along(fishing_subset)) {\n    total = total +\n      (log(1 - p) + (fishing_subset[i] * log(lambda)) - lambda) -\n      log(factorial(fishing_subset[i]))\n  }\n  return(probYzero(p, lambda) + total)\n}\nggplot() +\n  xlim(c(0.0, 1)) +\n  geom_function(fun = likelihood, args = list(lambda = 8)) +\n  geom_function(fun = likelihood,\n                args = list(lambda = 4),\n                col = \"red\") +\n  theme_bw() +\n  labs(x = \"p\", y = \"log-likelihood\")"
+  },
+  {
+    "objectID": "slides/lab1.html#a-plot",
+    "href": "slides/lab1.html#a-plot",
+    "title": "Maximum likelihood estimators",
+    "section": "a (plot)",
+    "text": "a (plot)\n\nsum(fishing_count == 0)\n\n[1] 57\n\nfishing_subset = fishing_count[fishing_count != 0 ]\nlength(fishing_subset) # sanity check\n\n[1] 43\n\nprobYzero = function(p, lambda) {\n  prob1 = log(p + ((1 - p) * exp(-lambda)))\n  return(57 * prob1)\n}\n\nlikelihood = function(p, lambda) {\n  total = 0\n  for (i in seq_along(fishing_subset)) {\n    total = total +\n      (log(1 - p) + (fishing_subset[i] * log(lambda)) - lambda) -\n      log(factorial(fishing_subset[i]))\n  }\n  return(probYzero(p, lambda) + total)\n}\nggplot() +\n  xlim(c(0.0, 1)) +\n  geom_function(fun = likelihood, args = list(lambda = 8)) +\n  geom_function(fun = likelihood,\n                args = list(lambda = 4),\n                col = \"red\") +\n  theme_bw() +\n  labs(x = \"p\", y = \"log-likelihood\")"
+  },
+  {
+    "objectID": "slides/lab1.html#b",
+    "href": "slides/lab1.html#b",
+    "title": "Maximum likelihood estimators",
+    "section": "b",
+    "text": "b\n\\(\\lambda = 4\\) is more likely. \\(\\hat{p}_{MLE} \\approx 0.5\\)."
+  },
+  {
+    "objectID": "slides/lab1.html#c",
+    "href": "slides/lab1.html#c",
+    "title": "Maximum likelihood estimators",
+    "section": "c",
+    "text": "c"
   }
 ]
