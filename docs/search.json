@@ -1096,7 +1096,7 @@
     "href": "hw/hw00.html",
     "title": "Homework 0",
     "section": "",
-    "text": "This math assessment is meant to help both you and the instructor identify gaps in background knowledge both at the class and individual level."
+    "text": "The purpose of this math assessment is to help both you and the instructor identify gaps in background knowledge both at the class and individual level. For this reason, do not use external resources to complete this assignment. Even though you will submit to Gradescope, it is not for a grade. If you don’t know the answer, just leave it blank."
   },
   {
     "objectID": "hw/hw00.html#exercise-1",
@@ -1110,7 +1110,7 @@
     "href": "hw/hw00.html#exercise-2",
     "title": "Homework 0",
     "section": "Exercise 2",
-    "text": "Exercise 2\nFind the derivative.\n\\[\n\\frac{d}{dx} \\left( \\frac{x}{\\log x} \\right)\n\\] ## Exercise 3\nWhat is the ordinary least squares estimator of \\(\\beta\\) (1-dimensional) in the linear regression \\(y = x \\beta + \\epsilon\\) with iid errors?"
+    "text": "Exercise 2\nFind the derivative,\n\\[\n\\frac{d}{dx} \\left( \\frac{x}{\\log x} \\right)\n\\]"
   },
   {
     "objectID": "hw/hw00.html#exercise-4",
@@ -1124,7 +1124,7 @@
     "href": "hw/hw00.html#exercise-5",
     "title": "Homework 0",
     "section": "Exercise 5",
-    "text": "Exercise 5\nIn linear regression with p-dimensional β, what is the interpretation of the estimate for the jth coefficient?"
+    "text": "Exercise 5\nIn linear regression with p-dimensional \\(\\beta\\), what is the interpretation of the estimate for the jth coefficient?"
   },
   {
     "objectID": "hw/hw00.html#exercise-6",
@@ -2455,5 +2455,12 @@
     "title": "Maximum likelihood estimators",
     "section": "c",
     "text": "c"
+  },
+  {
+    "objectID": "hw/hw00.html#exercise-3",
+    "href": "hw/hw00.html#exercise-3",
+    "title": "Homework 0",
+    "section": "Exercise 3",
+    "text": "Exercise 3\nWhat is the ordinary least squares estimator of \\(\\beta\\) (1-dimensional) in the linear regression \\(y = x \\beta + \\epsilon\\) with iid errors?"
   }
 ]

@@ -68,7 +68,7 @@ schedule %>%
 | Week | Date | Topic | Reading | Notes | Assignment |
 |:-|:-------|:--------------------|:------:|:------:|:-----------|
 | 1 | Wed Jan 07 | lab: welcome |  | [💻](/slides/lab0-welcome.html) | [hello R](/labs/lab0.html) |
-|  | Thu Jan 08 | intro, history, notation | Ch. 2 |  | hw 0 |
+|  | Thu Jan 08 | intro, history, notation | Ch. 2 |  | [hw 0](/hw/hw00.html) |
 | 2 | Mon Jan 12 | lab: MLE review |  | [💻](/slides/lab1.html)  |  |
 |  | Tue Jan 13 | probability, exchangeability | Ch. 2 |  |  |
 |  | Thu Jan 15 | beta-binomial model | Ch. 3 |  |  |

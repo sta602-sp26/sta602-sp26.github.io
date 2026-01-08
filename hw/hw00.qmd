@@ -6,10 +6,10 @@ format:
     toc: true
 ---
 
-This math assessment is meant to help both you and the instructor identify gaps in background knowledge both at the class and individual level.
+The purpose of this math assessment is to help both you and the instructor identify gaps in background knowledge both at the class and individual level. For this reason, do not use external resources to complete this assignment. Even though you will submit to Gradescope, it is not for a grade. If you don't know the answer, just leave it blank.
 
 ::: callout-important
-This homework will **not** be a part of your grade. 
+Again, this homework will **not** be a part of your grade. 
 :::
 
 ## Exercise 1
@@ -22,11 +22,12 @@ $$
 
 ## Exercise 2
 
-Find the derivative.
+Find the derivative,
 
 $$
 \frac{d}{dx} \left( \frac{x}{\log x} \right)
 $$
+
 ## Exercise 3
 
 What is the ordinary least squares estimator of $\beta$ (1-dimensional) in the linear regression $y = x \beta + \epsilon$ with iid errors?
@@ -37,7 +38,7 @@ What is the ordinary least squares estimator of $\beta$ (p-dimensional) in the l
 
 ## Exercise 5
 
-In linear regression with p-dimensional β, what is the interpretation of the estimate for the jth coefficient?
+In linear regression with p-dimensional $\beta$, what is the interpretation of the estimate for the jth coefficient?
 
 ## Exercise 6
 
