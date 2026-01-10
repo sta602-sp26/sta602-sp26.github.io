@@ -1,16 +1,16 @@
 #### Teaching team & office hours
 
-|                      | Contact                                                     | Office hours         | Location              |
-|------------------|------------------|------------------|------------------|
-| Dr. Alexander Fisher | [aaf29\@duke.edu](aaf29@duke.edu)                           | Tu 1:00-2:00pm, Th 2:00-3:00pm | Old Chem 223B       |
-| Semu Serunjogi     | [semu.serunjogi@duke.edu](semu.serunjogi@duke.edu) | TBD      | TBD         |
-| Eduardo Alfonso Vásquez Tapia          | [eduardo.vasqueztapia@duke.edu](eduardo.vasqueztapia@duke.edu)             | TBD   | TBD        |
-| Jaekyoung Kim             | [jaekyoung.kim@duke.edu](jaekyoung.kim@duke.edu)                 | TBD    | TBD       |
+|   | Contact | Office hours | Location |
+|------------------|---------------------|------------------|------------------|
+| Dr. Alexander Fisher | [aaf29\@duke.edu](aaf29@duke.edu) | Tu 1:00-2:00pm, Th 2:00-3:00pm | Old Chem 223B |
+| Semu Serunjogi | [semu.serunjogi\@duke.edu](semu.serunjogi@duke.edu) | TBD | TBD |
+| Eduardo Alfonso Vásquez Tapia | [eduardo.vasqueztapia\@duke.edu](eduardo.vasqueztapia@duke.edu) | TBD | TBD |
+| Jaekyoung Kim | [jaekyoung.kim\@duke.edu](jaekyoung.kim@duke.edu) | Fr: 8:00-10:00am | zoom (canvas) |
 
 #### Meetings
 
-|         |                     |                           |
-|---------|---------------------|---------------------------|
-| Lecture | Tu/Th 8:30am-9:45am | Old Chemistry 116 |
-| Lab 01  | Mo 10:05am-11:20am  | Social Sciences 124          |
-| Lab 02  | Mo 11:45am-1:00pm  |     Biological Sciences 155         |
+|         |                     |                         |
+|---------|---------------------|-------------------------|
+| Lecture | Tu/Th 8:30am-9:45am | Old Chemistry 116       |
+| Lab 01  | Mo 10:05am-11:20am  | Social Sciences 124     |
+| Lab 02  | Mo 11:45am-1:00pm   | Biological Sciences 155 |
