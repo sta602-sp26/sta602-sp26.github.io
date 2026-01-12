@@ -63,15 +63,14 @@ schedule %>%
 </style>
 ```
 
-
 ::: heatMap
 | Week | Date | Topic | Reading | Notes | Assignment |
-|:-|:-------|:--------------------|:------:|:------:|:-----------|
+|:----------|:----------|:-----------------|:---------:|:---------:|:----------|
 | 1 | Wed Jan 07 | lab: welcome |  | [💻](/slides/lab0-welcome.html) | [hello R](/labs/lab0.html) |
 |  | Thu Jan 08 | intro, history, notation | Ch. 2 |  | [hw 0](/hw/hw00.html) |
-| 2 | Mon Jan 12 | lab: MLE review |  | [💻](/slides/lab1.html)  |  |
-|  | Tue Jan 13 | probability, exchangeability | Ch. 2 | [🗒](/notes/lec01-probability.html)  |  |
-|  | Thu Jan 15 | beta-binomial model | Ch. 3 |  |  |
+| 2 | Mon Jan 12 | lab: MLE review |  | [💻](/slides/lab1.html) |  |
+|  | Tue Jan 13 | probability, exchangeability | Ch. 2 | [🗒](/notes/lec01-probability.html) | [hw 1](/hw/hw01.html) |
+|  | Thu Jan 15 | beta-binomial model | Ch. 3 | [🗒](/notes/lec02-estimation.html) |  |
 | 3 | Mon Jan 19 | NO CLASS |  |  |  |
 |  | Tue Jan 20 | Poisson-gamma model, exp families | Ch. 3 |  |  |
 |  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 |  |  |
@@ -110,7 +109,6 @@ schedule %>%
 |  | Thu Apr 09 |  |  |  |  |
 | 15 | Mon Apr 13 |  |  |  |  |
 |  | Tue Apr 14 |  |  |  |  |
-
 :::
 
 <!-- | Week | Date | Topic | Reading | Notes | Assignment | -->
