@@ -70,7 +70,7 @@ schedule %>%
 |  | Thu Jan 08 | intro, history, notation | Ch. 2 |  | [hw 0](/hw/hw00.html) |
 | 2 | Mon Jan 12 | lab: MLE review |  | [💻](/slides/lab1.html) |  |
 |  | Tue Jan 13 | probability, exchangeability | Ch. 2 | [🗒](/notes/lec01-probability.html) [📝](/notes/probability-exchangeability-v2.pdf) | [hw 1](/hw/hw01.html) |
-|  | Thu Jan 15 | beta-binomial model | Ch. 3 | [🗒](/notes/lec02-estimation.html) |  |
+|  | Thu Jan 15 | beta-binomial model | Ch. 3 | [🗒](/notes/lec02-estimation.html) [📝](/notes/beta-binomial-602.pdf) |  |
 | 3 | Mon Jan 19 | NO CLASS |  |  |  |
 |  | Tue Jan 20 | Poisson-gamma model, exp families | Ch. 3 | [🗒](notes/lec03-Poisson-gamma-exp-families.html) |  |
 |  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 |  |  |
