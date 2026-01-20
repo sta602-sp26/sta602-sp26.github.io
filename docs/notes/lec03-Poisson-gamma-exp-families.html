@@ -176,6 +176,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#data-generative-model" id="toc-data-generative-model" class="nav-link" data-scroll-target="#data-generative-model">Data-generative model</a></li>
   <li><a href="#prior-beliefs" id="toc-prior-beliefs" class="nav-link" data-scroll-target="#prior-beliefs">Prior beliefs</a></li>
+  <li><a href="#compute-the-posterior" id="toc-compute-the-posterior" class="nav-link" data-scroll-target="#compute-the-posterior">Compute the posterior</a></li>
   </ul></li>
   <li><a href="#exponential-families" id="toc-exponential-families" class="nav-link" data-scroll-target="#exponential-families">Exponential families</a>
   <ul class="collapse">
@@ -247,11 +248,12 @@ window.Quarto = {
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">360</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>yx <span class="ot">=</span> <span class="fu">read_csv</span>(<span class="st">"../data/BostonCeltics_Assists_23-24_season.csv"</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>yx <span class="sc">%&gt;%</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_sample</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(AST))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>yx <span class="ot">=</span> <span class="fu">read_csv</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://sta602-sp26.github.io/data/BostonCeltics_Assists_23-24_season.csv"</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>yx <span class="sc">%&gt;%</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_sample</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(AST))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -302,7 +304,10 @@ p(y_1,\ldots y_n | \theta) = \prod_{i = 1}^n \frac{(\theta x_i)^{y_i} e^{-\theta
 \theta &amp;\sim gamma(a, b)\\
 p(\theta | a, b) &amp;= \frac{b^{a}}{\Gamma(a)} \theta^{a - 1} e^{-b \theta}
 \end{aligned}
-\]</span> ### Compute the posterior</p>
+\]</span></p>
+</section>
+<section id="compute-the-posterior" class="level3">
+<h3 class="anchored" data-anchor-id="compute-the-posterior">Compute the posterior</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Exercise</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Solution</a></li></ul>
 <div class="tab-content">

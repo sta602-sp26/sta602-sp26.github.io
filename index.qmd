@@ -73,10 +73,10 @@ schedule %>%
 |  | Thu Jan 15 | beta-binomial model | Ch. 3 | [🗒](/notes/lec02-estimation.html) [📝](/notes/beta-binomial-602.pdf) |  |
 | 3 | Mon Jan 19 | NO CLASS |  |  |  |
 |  | Tue Jan 20 | Poisson-gamma model, exp families | Ch. 3 | [🗒](notes/lec03-Poisson-gamma-exp-families.html) |  |
-|  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 |  |  |
+|  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 | [🗒](/notes/lec04-reliability.html) |  |
 | 4 | Mon Jan 26 | lab |  |  |  |
-|  | Tue Jan 27 | intro to Monte Carlo |  |  |  |
-|  | Thu Jan 29 | predictive checks and MC error |  |  |  |
+|  | Tue Jan 27 | intro to Monte Carlo |[📖](/readings/introMonteCarlo.html)  |  |  |
+|  | Thu Jan 29 | predictive checks and MC error | Ch. 4 |  |  |
 | 5 | Mon Feb 02 | lab |  |  |  |
 |  | Tue Feb 03 | the normal model |  |  |  |
 |  | Thu Feb 05 | estimators |  |  |  |

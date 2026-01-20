@@ -43,7 +43,8 @@ yx %>%
 #| echo: true
 #| eval: false
 set.seed(360)
-yx = read_csv("../data/BostonCeltics_Assists_23-24_season.csv")
+yx = read_csv(
+  "https://sta602-sp26.github.io/data/BostonCeltics_Assists_23-24_season.csv")
 
 yx %>%
   slice_sample(n = 10) %>%
@@ -100,6 +101,7 @@ $$
 p(\theta | a, b) &= \frac{b^{a}}{\Gamma(a)} \theta^{a - 1} e^{-b \theta}
 \end{aligned}
 $$
+
 ### Compute the posterior
 
 ::: panel-tabset

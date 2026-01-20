@@ -2,10 +2,10 @@
 
 |   | Contact | Office hours | Location |
 |------------------|-------------------|------------------|------------------|
-| Dr. Alexander Fisher | [aaf29\@duke.edu](aaf29@duke.edu) | Tu 1:00-2:00pm, Th 2:00-3:00pm | Old Chem 223B |
-| Semu Serunjogi | [semu.serunjogi\@duke.edu](semu.serunjogi@duke.edu) | Tu/Th 12:00-1:00pm | Old Chem 203B |
-| Eduardo Alfonso Vásquez Tapia | [eduardo.vasqueztapia\@duke.edu](eduardo.vasqueztapia@duke.edu) | We 1:00-3:00pm | Old Chem 203B |
-| Jaekyoung Kim | [jaekyoung.kim\@duke.edu](jaekyoung.kim@duke.edu) | Fr: 8:00-10:00am | zoom (canvas) |
+| Dr. Alexander Fisher | [aaf29\@duke.edu](mailto:aaf29@duke.edu) | Tu 1:00-2:00pm, Th 2:00-3:00pm | Old Chem 223B |
+| Semu Serunjogi | [semu.serunjogi\@duke.edu](mailto:semu.serunjogi@duke.edu) | Tu/Th 12:00-1:00pm | Old Chem 203B |
+| Eduardo Alfonso Vásquez Tapia | [eduardo.vasqueztapia\@duke.edu](mailto:eduardo.vasqueztapia@duke.edu) | We 1:00-3:00pm | Old Chem 203B |
+| Jaekyoung Kim | [jaekyoung.kim\@duke.edu](mailto:jaekyoung.kim@duke.edu) | Fr: 8:00-10:00am | zoom (canvas) |
 
 #### Meetings
 
