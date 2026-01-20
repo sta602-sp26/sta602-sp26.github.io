@@ -1,6 +1,6 @@
 ---
 title: "Homework 2"
-subtitle: "Due Friday January 31 at 5:00pm"
+subtitle: "Due Friday January 30 at 5:00pm"
 mainfont: Lato
 format: 
   html:
@@ -50,7 +50,7 @@ Data from the study described in exercise 3 can be downloaded from the course we
 
 ```{r}
 #| eval: false
-readr::read_csv("https://sta602-sp25.github.io/data/bird-counts.csv")
+readr::read_csv("https://sta602-sp26.github.io/data/bird-counts.csv")
 ```
 
 
