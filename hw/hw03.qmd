@@ -1,6 +1,6 @@
 ---
 title: "Homework 3"
-subtitle: "Due Friday February 7 at 5:00pm"
+subtitle: "Due Friday February 6 at 5:00pm"
 mainfont: Lato
 format: 
   html:
@@ -49,10 +49,10 @@ In this exercise, you will build a very simple Bayesian image classifier. Load t
 ```{r}
 #| eval: false
 yTrain = readr::read_csv(
-  "https://sta602-sp25.github.io/data/hw-digits-train.csv")
+  "https://sta602-sp26.github.io/data/hw-digits-train.csv")
 
 yTest = readr::read_csv(
-  "https://sta602-sp25.github.io/data/hw-digits-test.csv"
+  "https://sta602-sp26.github.io/data/hw-digits-test.csv"
 )
 ```
 

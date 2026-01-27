@@ -184,7 +184,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Homework 3</h1>
-<p class="subtitle lead">Due Friday February 7 at 5:00pm</p>
+<p class="subtitle lead">Due Friday February 6 at 5:00pm</p>
 </div>
 
 
@@ -234,10 +234,10 @@ E~Y^2|\theta &amp;= \frac{a}{\theta^2}
 <p>In this exercise, you will build a very simple Bayesian image classifier. Load the training and test data sets using the code below.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>yTrain <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://sta602-sp25.github.io/data/hw-digits-train.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://sta602-sp26.github.io/data/hw-digits-train.csv"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>yTest <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://sta602-sp25.github.io/data/hw-digits-test.csv"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://sta602-sp26.github.io/data/hw-digits-test.csv"</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The training data set contains 3822 images like the ones displayed above. Each image is a 32 x 32 bitmap, i.e.&nbsp;1024 pixels, where each pixel is either black (0) or white (1). The 1024 pixels are divided into 64 blocks of 4 x 4 pixels. Each digit in the data set is represented by a vector of these blocks <span class="math inline">\(\mathbf{x} = (x_1, \ldots, x_{64})\)</span> where each element is a count of the white pixels in a block (a number between 0 and 16).</p>
