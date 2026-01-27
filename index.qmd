@@ -72,10 +72,10 @@ schedule %>%
 |  | Tue Jan 13 | probability, exchangeability | Ch. 2 | [🗒](/notes/lec01-probability.html) [📝](/notes/probability-exchangeability-v2.pdf) | [hw 1](/hw/hw01.html) |
 |  | Thu Jan 15 | beta-binomial model | Ch. 3 | [🗒](/notes/lec02-estimation.html) [📝](/notes/beta-binomial-602.pdf) |  |
 | 3 | Mon Jan 19 | NO CLASS |  |  |  |
-|  | Tue Jan 20 | Poisson-gamma model, exp families | Ch. 3 | [🗒](notes/lec03-Poisson-gamma-exp-families.html) [📝](/notes/lec-03-notes.pdf)| [hw 2](/hw/hw02.html) |
-|  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 | [🗒](/notes/lec04-reliability.html) |  |
+|  | Tue Jan 20 | Poisson-gamma model, exp families | Ch. 3 | [🗒](notes/lec03-Poisson-gamma-exp-families.html) [📝](/notes/lec-03-notes.pdf) | [hw 2](/hw/hw02.html) |
+|  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 | [🗒](/notes/lec04-reliability.html) [📝](/notes/reliability-handwritten.pdf) |  |
 | 4 | Mon Jan 26 | lab: exp families and transformations |  | [💻](/slides/lab-exp-families.html) |  |
-|  | Tue Jan 27 | intro to Monte Carlo |[📖](/readings/introMonteCarlo.html)  | [🗒](/notes/lec05-introMonteCarlo.html) |  |
+|  | Tue Jan 27 | intro to Monte Carlo | [📖](/readings/introMonteCarlo.html) | [🗒](/notes/lec05-introMonteCarlo.html) |  |
 |  | Thu Jan 29 | predictive checks and MC error | Ch. 4 |  |  |
 | 5 | Mon Feb 02 | lab |  |  |  |
 |  | Tue Feb 03 | the normal model |  |  |  |
