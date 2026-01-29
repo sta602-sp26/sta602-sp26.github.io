@@ -76,10 +76,10 @@ schedule %>%
 |  | Thu Jan 22 | reliability (conf. intervals, hpd, Laplace approx.) | Ch. 3 | [🗒](/notes/lec04-reliability.html) [📝](/notes/reliability-handwritten.pdf) |  |
 | 4 | Mon Jan 26 | lab: exp families and transformations |  | [💻](/slides/lab-exp-families.html) |  |
 |  | Tue Jan 27 | intro to Monte Carlo | [📖](/readings/introMonteCarlo.html) | [🗒](/notes/lec05-introMonteCarlo.html) |  [hw 3](/hw/hw03.html) |
-|  | Thu Jan 29 | predictive checks and MC error | Ch. 4 |  |  |
-| 5 | Mon Feb 02 | lab |  |  |  |
-|  | Tue Feb 03 | the normal model |  |  |  |
-|  | Thu Feb 05 | estimators |  |  |  |
+|  | Thu Jan 29 | predictive checks and MC error | Ch. 4 | [🗒](/notes/lec06-MonteCarloPredictionError.html) [📝](/notes/predictive-distributions.pdf) |  |
+| 5 | Mon Feb 02 | lab: mixture densities |  | [💻](/slides/lab-mixtures.html) |  |
+|  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) |  |
+|  | Thu Feb 05 | estimators | Ch. 5 |  |  |
 | 6 | Mon Feb 09 | lab |  |  |  |
 |  | Tue Feb 10 | priors |  |  |  |
 |  | Thu Feb 12 | review |  |  |  |

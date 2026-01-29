@@ -76,7 +76,7 @@ We can assess the fit of a model by comparing the posterior predictive distribut
 ```{r}
 #| warning: false
 # load general social survey data
-gss = read_csv("https://sta360-fa23.github.io/data/gss.csv")
+gss = read_csv("https://sta602-sp26.github.io/data/gss.csv")
 ```
 
 

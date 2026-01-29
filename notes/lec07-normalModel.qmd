@@ -42,7 +42,7 @@ $$
 
 #### precision
 
-Notice that every time $\sigma^2$ appears in the density, it is inverted. For this reason, the inverse variance $(\frac{1}{\sigma^2})$ has a special name, **precision**. Intuitively, precision tells us how close $y$ is to the mean $\theta$. (Large precision = small variance = closer).
+Notice that every time $\sigma^2$ appears in the density, it is inverted. For this reason, we often consider the inverse variance $(\frac{1}{\sigma^2})$ as a quantity of interest. This quantity has a special name, **precision**. Intuitively, the precision tells us how close $y$ is to the mean $\theta$. (Large precision = small variance = closer).
 
 
 ### plots of normal densities
