@@ -175,6 +175,7 @@ window.Quarto = {
   <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link active" data-scroll-target="#exercise-1">Exercise 1</a></li>
   <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise 2</a></li>
   <li><a href="#exercise-3" id="toc-exercise-3" class="nav-link" data-scroll-target="#exercise-3">Exercise 3</a></li>
+  <li><a href="#exercise-4" id="toc-exercise-4" class="nav-link" data-scroll-target="#exercise-4">Exercise 4</a></li>
   </ul>
 </nav>
     </div>
@@ -184,7 +185,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Homework 4</h1>
-<p class="subtitle lead">Due Friday February 14 at 5:00pm</p>
+<p class="subtitle lead">Due Friday February 13 at 5:00pm</p>
 </div>
 
 
@@ -232,7 +233,7 @@ Y_i | \theta \sim \text{iid }Poisson(\theta)
 <h2 class="anchored" data-anchor-id="exercise-3">Exercise 3</h2>
 <p>Chimowitz et al.&nbsp;(2011) <a href="https://doi.org/10.1056/NEJMoa1105335">https://doi.org/10.1056/NEJMoa1105335</a> investigate if stents are effective treatment to manage strokes in patients with atherosclerotic intracranial arterial stenosis. You can load the data using the code below. Data sourced from <code>openintro</code> package.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>stents <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://sta602-sp25.github.io/data/stent365.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>stents <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://sta602-sp26.github.io/data/stent365.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Each row of the data set is an individual patient. The <code>group</code> column indicates whether the patient was treated with a stent or not. The <code>outcome</code> column reports whether the patient had a stroke or not within a year.</p>
 <ol type="a">
@@ -241,6 +242,36 @@ Y_i | \theta \sim \text{iid }Poisson(\theta)
 <li><p>Report (using Monte Carlo sampling or otherwise) the posterior mean of the <a href="https://en.wikipedia.org/wiki/Relative_risk">relative risk</a>, i.e.&nbsp;the posterior mean of the probability of stroke in the treatment group versus in the control, (think <span class="math inline">\(E~[\frac{\theta_t}{\theta_c}~|~\text{data}]\)</span>). Additionally, include a 95% posterior confidence interval for the relative risk.</p></li>
 <li><p>Plot the posterior of the relative risk from part c.&nbsp;Do you believe the treatment is effective?</p></li>
 </ol>
+</section>
+<section id="exercise-4" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-4">Exercise 4</h2>
+<p>Let</p>
+<p><span class="math display">\[
+\begin{aligned}
+Y | \theta, \gamma &amp;\sim N(\theta, 1/\gamma)\\
+\theta | \gamma &amp;\sim N(\mu_0, 1/ (\gamma \kappa_0))\\
+\gamma &amp;\sim \text{gamma}(a, b)
+\end{aligned}
+\]</span> so <span class="math inline">\(\gamma\)</span> is the precision (inverse-variance) of the normal distribution.</p>
+<ol type="a">
+<li><p>Derive and simplify the joint pdf <span class="math inline">\(p(y_1, \ldots y_n | \theta, \gamma)\)</span>.</p></li>
+<li><p>Derive the marginal posterior of the precision, <span class="math inline">\(p(\gamma| y_1, \ldots y_n)\)</span>.</p></li>
+<li><p>Explain the drawback(s), if any, to specifying <span class="math inline">\(p(\theta, \gamma) = p(\theta) p(\gamma)\)</span>, where <span class="math inline">\(\theta \sim N(\mu_0, \tau_0)\)</span> and <span class="math inline">\(\gamma \sim \text{gamma}(a,b)\)</span>.</p></li>
+</ol>
+<!-- *Bayes estimation under quadratic loss* -->
+<!-- Let $Y \mid \theta \sim \mathcal{N}(\theta, \sigma^2)$ with known $\sigma^2$, and suppose the prior distribution is -->
+<!-- $$ -->
+<!-- \theta \sim \mathcal{N}(\mu_0, \tau^2). -->
+<!-- $$ -->
+<!-- a. Write down the distribution of $\theta \mid Y = y$. You can write "the posterior is distributed BLANK with parameters BLANK and BLANK, (don't need to derive, can follow class notes). -->
+<!-- b. Fix $\mu_0 = 0$, $\tau^2 = 1$, $\sigma^2 = 1$, and $y = 1$. Simulate a large sample $\{\theta^{(1)}, \dots, \theta^{(S)}\}$ from the posterior distribution $p(\theta \mid y)$. -->
+<!-- c. Consider estimators of $\theta$ of the form $\delta_c = c$, where $c \in \mathbb{R}$. Using your simulated posterior draws, approximate the posterior expected quadratic loss -->
+<!--    $$ -->
+<!--    R(c) = \mathbb{E}\!\left[(\theta - c)^2 \mid Y = y\right] -->
+<!--    $$ -->
+<!--    over a grid of values of $c$. -->
+<!-- d. Plot the estimated risk $R(c)$ as a function of $c$.   -->
+<!--    Identify the value of $c$ that minimizes the empirical risk, and compare it to the posterior mean derived in part (a).   -->
 
 
 </section>

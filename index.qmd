@@ -78,8 +78,8 @@ schedule %>%
 |  | Tue Jan 27 | intro to Monte Carlo | [📖](/readings/introMonteCarlo.html) | [🗒](/notes/lec05-introMonteCarlo.html) | [hw 3](/hw/hw03.html) |
 |  | Thu Jan 29 | predictive checks and MC error | Ch. 4 | [🗒](/notes/lec06-MonteCarloPredictionError.html) [📝](/notes/predictive-distributions.pdf) |  |
 | 5 | Mon Feb 02 | lab: mixture densities |  | [💻](/slides/lab-mixtures.html) |  |
-|  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) |  |
-|  | Thu Feb 05 | estimators | Ch. 5 |  |  |
+|  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) | [hw 4](/hw/hw04.html)  |
+|  | Thu Feb 05 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html)  |  |
 | 6 | Mon Feb 09 | lab: |  |  |  |
 |  | Tue Feb 10 | priors |  |  |  |
 |  | Thu Feb 12 | TBD |  |  |  |
