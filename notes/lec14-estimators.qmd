@@ -45,7 +45,7 @@ What does the example below show? What is x?
 :::
 
 ```{r}
-set.seed(360)
+set.seed(602)
 
 x = vector()
 for (i in 1:100) {
