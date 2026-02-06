@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bayesian statistical modeling and data analysis",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nestimators\nCh. 5\n🗒 📝\n\n\n\n6\nMon Feb 09\nlab:\n\n\n\n\n\n\nTue Feb 10\npriors\n\n\n\n\n\n\nThu Feb 12\nTBD\n\n\n\n\n\n7\nMon Feb 16\nlab\n\n\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\n\n\n\n\n\n\n\nTue Feb 24\n\n\n\n\n\n\n\nThu Feb 26\n\n\n\n\n\n\n9\nMon Mar 02\n\n\n\n\n\n\n\nTue Mar 03\n\n\n\n\n\n\n\nThu Mar 05\n\n\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\n\n\n\n\n\n\n\nTue Mar 17\n\n\n\n\n\n\n\nThu Mar 19\n\n\n\n\n\n\n12\nMon Mar 23\n\n\n\n\n\n\n\nTue Mar 24\n\n\n\n\n\n\n\nThu Mar 26\n\n\n\n\n\n\n13\nMon Mar 30\n\n\n\n\n\n\n\nTue Mar 31\n\n\n\n\n\n\n\nThu Apr 02\n\n\n\n\n\n\n14\nMon Apr 06\n\n\n\n\n\n\n\nTue Apr 07\n\n\n\n\n\n\n\nThu Apr 09\n\n\n\n\n\n\n15\nMon Apr 13\n\n\n\n\n\n\n\nTue Apr 14"
+    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nestimators\nCh. 5\n🗒 📝\n\n\n\n6\nMon Feb 09\nlab: normal data and estimators\n\n💻\n\n\n\n\nTue Feb 10\npriors\n\n\n\n\n\n\nThu Feb 12\nTBD\n\n\n\n\n\n7\nMon Feb 16\nlab\n\n\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\n\n\n\n\n\n\n\nTue Feb 24\n\n\n\n\n\n\n\nThu Feb 26\n\n\n\n\n\n\n9\nMon Mar 02\n\n\n\n\n\n\n\nTue Mar 03\n\n\n\n\n\n\n\nThu Mar 05\n\n\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\n\n\n\n\n\n\n\nTue Mar 17\n\n\n\n\n\n\n\nThu Mar 19\n\n\n\n\n\n\n12\nMon Mar 23\n\n\n\n\n\n\n\nTue Mar 24\n\n\n\n\n\n\n\nThu Mar 26\n\n\n\n\n\n\n13\nMon Mar 30\n\n\n\n\n\n\n\nTue Mar 31\n\n\n\n\n\n\n\nThu Apr 02\n\n\n\n\n\n\n14\nMon Apr 06\n\n\n\n\n\n\n\nTue Apr 07\n\n\n\n\n\n\n\nThu Apr 09\n\n\n\n\n\n\n15\nMon Apr 13\n\n\n\n\n\n\n\nTue Apr 14"
   },
   {
     "objectID": "notes/lec14-estimators.html",
@@ -68,5 +68,89 @@
     "title": "Homework 4",
     "section": "Exercise 4",
     "text": "Exercise 4\nLet\n\\[\n\\begin{aligned}\nY | \\theta, \\gamma &\\sim N(\\theta, 1/\\gamma)\\\\\n\\theta | \\gamma &\\sim N(\\mu_0, 1/ (\\gamma \\kappa_0))\\\\\n\\gamma &\\sim \\text{gamma}(a, b)\n\\end{aligned}\n\\] so \\(\\gamma\\) is the precision (inverse-variance) of the normal distribution.\n\nDerive and simplify the joint pdf \\(p(y_1, \\ldots y_n | \\theta, \\gamma)\\).\nDerive the marginal posterior of the precision, \\(p(\\gamma| y_1, \\ldots y_n)\\).\nExplain the drawback(s), if any, to specifying \\(p(\\theta, \\gamma) = p(\\theta) p(\\gamma)\\), where \\(\\theta \\sim N(\\mu_0, \\tau_0)\\) and \\(\\gamma \\sim \\text{gamma}(a,b)\\)."
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#exercise",
+    "href": "slides/lab-normal-and-estimators.html#exercise",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Exercise",
+    "text": "Exercise\nLibraries used:\n\nlibrary(tidyverse)\nlibrary(latex2exp)"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#data",
+    "href": "slides/lab-normal-and-estimators.html#data",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Data",
+    "text": "Data\n\nbass = read_csv(\"https://sta360-sp25.github.io/data/bass.csv\")\n\n\nglimpse(bass)\n\nRows: 171\nColumns: 5\n$ river   &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…\n$ station &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…\n$ length  &lt;dbl&gt; 47.0, 48.7, 55.7, 45.2, 44.7, 43.8, 38.5, 45.8, 44.0, 40.4, 47…\n$ weight  &lt;dbl&gt; 1.616, 1.862, 2.855, 1.199, 1.320, 1.225, 0.870, 1.455, 1.220,…\n$ mercury &lt;dbl&gt; 1.60, 1.50, 1.70, 0.73, 0.56, 0.51, 0.48, 0.95, 1.40, 0.50, 0.…\n\n\nMercury, is a naturally occurring element that can have toxic effects on the nervous, digestive and immune systems of humans. Bass from the Waccamaw and Lumber Rivers (NC) were caught randomly, weighed, and measured. In addition, a filet from each fish caught was sent to the lab so that the tissue concentration of mercury could be determined for each fish. Each fish caught corresponds to a single row of the data frame. Today we will examine two columns from the data set: mercury (concentration of mercury in ppm) and weight (weight of the fish in kg). We’ll model the mercury content \\(y\\) of each fish as a function of the fish’s weight \\(x\\)."
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#model",
+    "href": "slides/lab-normal-and-estimators.html#model",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Model",
+    "text": "Model\nLet\n\\[\n\\begin{aligned}\nY_i | \\theta &\\sim \\text{ iid  } N(\\theta x_i, 1)\\\\\n\\theta &\\sim N(\\mu_0, 1 / \\kappa_0)\n\\end{aligned}\n\\]\nLet \\(\\mu_0 = 0\\), \\(\\kappa_0 = 1\\).\n(a). Suppose you observe data \\(y_1,\\ldots y_n\\). Write out the formula for \\(p(\\theta | y_1, \\ldots y_n)\\).\n(b). Given the data on the previous slide, use Monte Carlo simulation to plot \\(p(\\theta | y_1, \\ldots, y_n)\\). Additionally, report \\(E[\\theta | y_1,\\ldots y_n]\\) together with a 95% posterior confidence interval.\n(c). If you caught a new fish with weight 4kg, what would you predict the mercury content to be? In other words, let x = 4 and compute \\(E[\\tilde{y}|y_1,\\ldots, y_n, x = 4]\\). Additionally, plot the the posterior predictive density \\(p(\\tilde{y} | y_1, \\ldots y_n, x = 4)\\).\n(d). Critique your model. Hint: compare to the models below:\n\nlm(mercury ~ weight, data = bass)\nlm(mercury ~ 0 + weight, data = bass)"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-a",
+    "href": "slides/lab-normal-and-estimators.html#solution-a",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution (a)",
+    "text": "Solution (a)\na\n\\[\n\\theta |  y_1, \\ldots y_n \\sim N(\\mu_n, \\tau_n^2)\n\\] \nwhere\n\n\n\n\n\\[\n\\begin{aligned}\n\\mu_n &= \\frac{\\kappa_0 \\mu_0 + \\sum y_i x_i}{\\kappa_0 + \\sum x_i^2}\\\\\n\\tau_n^2 &= \\frac{1}{\\kappa_0 + \\sum x_i^2}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-b",
+    "href": "slides/lab-normal-and-estimators.html#solution-b",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution (b)",
+    "text": "Solution (b)\nb\n\ndemodemo plotsolution codesolution plotsummary\n\n\nDemo with simulated data to make sure code works:\n\n# simulated data\nset.seed(123)\ntrue.theta = 4\ntrue.sigma = 1\nN = 10\nx = seq(from = 1, to = 10, length = N)\ny = rnorm(N, true.theta * x, true.sigma)\n\n# prior parameters\nk0 = 1\nmu0 = 0\n\nsumYX = sum(y * x)\nd = (k0 + sum(x^2))\nmun = ((k0 * mu0) + sumYX) / d\ntn = sqrt(1 / d)\n\ntheta.postsample = rnorm(10000, mun, tn)\nhist(theta.postsample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx = bass$weight\ny = bass$mercury\n\n# prior parameters\nk0 = 1\nmu0 = 0\n\nsumYX = sum(y * x)\nd = (k0 + sum(x^2))\nmun = ((k0 * mu0) + sumYX) / d\ntn = sqrt(1 / d)\n\ntheta.postsample = rnorm(10000, mun, tn)\nhist(theta.postsample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmean(theta.postsample)\n\n[1] 0.8314533\n\nquantile(theta.postsample, c(0.025, 0.975))\n\n     2.5%     97.5% \n0.7284780 0.9356104"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-c",
+    "href": "slides/lab-normal-and-estimators.html#solution-c",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution (c)",
+    "text": "Solution (c)\n\n# use posterior samples of theta and x = 4 to simulate ytilde\n\nytilde = rnorm(10000, theta.postsample * 4, 1)\nhist(ytilde)\n\nmean(ytilde)\n\n[1] 3.319342\n\n\nThis matches intuition (law of total expectation gives the closed form solution: 4 * 0.838 = 3.352)."
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-d",
+    "href": "slides/lab-normal-and-estimators.html#solution-d",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution (d)",
+    "text": "Solution (d)\nWe have no intercept term. We are assuming that our regression line goes through the origin. This is a strong assumption. Our model will be most similar to the lm model without an intercept term:\n\nlm(mercury ~ 0 + weight, data = bass)\n\n\nCall:\nlm(formula = mercury ~ 0 + weight, data = bass)\n\nCoefficients:\nweight  \n0.8343  \n\n\nHowever, we’ll get a different estimate of \\(\\hat{\\theta}\\) if we include an intercept term,\n\nlm(mercury ~ weight, data = bass)\n\n\nCall:\nlm(formula = mercury ~ weight, data = bass)\n\nCoefficients:\n(Intercept)       weight  \n     0.6387       0.4818"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#exercises",
+    "href": "slides/lab-normal-and-estimators.html#exercises",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Exercises",
+    "text": "Exercises"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#exercise-1-estimators",
+    "href": "slides/lab-normal-and-estimators.html#exercise-1-estimators",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Exercise 1: estimators",
+    "text": "Exercise 1: estimators\nLet \\(Y_1,\\ldots Y_n\\) be iid random variables with expectation \\(\\theta\\) and variance \\(\\sigma^2\\).\nShow that \\(\\frac{1}{n} \\sum_{i = 1}^n (Y_i -\\bar{Y})^2\\) is a biased estimator of \\(\\sigma^2\\)."
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#exercise-2-estimators",
+    "href": "slides/lab-normal-and-estimators.html#exercise-2-estimators",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Exercise 2: estimators",
+    "text": "Exercise 2: estimators\n\\[\n\\begin{aligned}\nY_1, \\ldots, Y_n &\\sim \\text{ i.i.d. binary}(\\theta)\\\\\n\\theta &\\sim \\text{beta}(a, b)\n\\end{aligned}\n\\]\n\nCompute \\(\\hat{\\theta}_{MLE}\\)\nCompute \\(\\hat{\\theta}_{B} = E[\\theta | y_1,\\ldots y_n]\\).\nCompare \\(MSE(\\hat{\\theta}_{MLE})\\) to \\(MSE(\\hat{\\theta}_{B})\\)). Under what conditions is the MSE of \\(\\hat{\\theta}_B\\) smaller?"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-1",
+    "href": "slides/lab-normal-and-estimators.html#solution-1",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution 1",
+    "text": "Solution 1\nLet \\(\\hat{\\sigma}^2 = \\frac{1}{n} \\sum_{i = 1}^n (Y_i -\\bar{Y})^2\\).\n\\[\n\\begin{aligned}\nBias(\\hat{\\sigma}^2 | \\sigma^2 = \\sigma_0^2) &= E[\\hat{\\sigma}^2|\\sigma_0^2] - \\sigma_0^2\\\\\n&=  - \\sigma_0^2 + \\frac{1}{n} \\sum_{i = 1}^n E[(Y_i -\\bar{Y})^2|\\sigma_0^2]\\\\\n&= - \\sigma_0^2 + \\frac{1}{n} \\sum_{i=1}^n \\left[\nE[Y_i^2 |\\sigma_0^2] - 2E[Y_i \\bar{Y}|\\sigma_0^2] + E[\\bar{Y}^2 | \\sigma_0^2]\n\\right]\n\\end{aligned}\n\\]\nRecall that for any random variable X, \\(Var(X) = E[X^2] - E[X]^2\\). Using this fact, we continue our proof above:\n\\[\n\\begin{aligned}\n&= -\\sigma_0^2 +(\\sigma_0^2  + \\theta^2)\n-2 \\frac{1}{n} \\sum_{i=1}^n \\left[  E~\\left(Y_i \\frac{1}{n}\\sum_j Y_j\\right) | \\sigma_0^2    \\right]\n+ \\left(\\frac{\\sigma_0^2}{n} + \\theta^2\\right)\\\\\n&= 2\\theta^2 + \\frac{\\sigma_0^2}{n} - \\frac{2}{n}\n\\left(n\\theta^2  - \\sigma_0^2\n\\right)\\\\\n&= \\frac{(n-1)\\sigma_0^2}{n}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides/lab-normal-and-estimators.html#solution-2",
+    "href": "slides/lab-normal-and-estimators.html#solution-2",
+    "title": "Normal modeling &\nBayesian estimators",
+    "section": "Solution 2",
+    "text": "Solution 2\n\\[\n\\begin{aligned}\n\\hat{\\theta}_{MLE} &= \\bar{Y} = \\frac{1}{n}\\sum_{i=1}^n Y_i\\\\\n\\hat{\\theta}_B &= \\frac{n\\bar{y}+a}{n+a+b} =\n\\end{aligned}\n\\]\n\\[\n\\begin{aligned}\nMSE(\\hat{\\theta}_{MLE}|\\theta) &= \\frac{\\theta(1-\\theta)}{n}\\\\\nMSE(\\hat{\\theta}_B|\\theta) &= \\frac{n}{n + a + b}\\bar{Y} + \\frac{a + b}{n + a + b} \\frac{a}{a + b} =  w \\bar{Y} + (1-w)\\frac{a}{a+b}\\\\\n&= w^2Var(\\bar{Y} | \\theta) +  (1-w)^2 \\left(\\frac{a}{a+b} - \\theta\\right)^2\\\\\n&= {w^2} \\frac{\\theta(1-\\theta)}{n} + (1-w)^2  \\left(\\frac{a}{a+b} - \\theta\\right)^2\n\\end{aligned}\n\\] For the Bayesian estimator to have smaller MSE than the MLE, we need\n\\[\n\\begin{aligned}\n\\left(\\frac{a}{a+b} - \\theta\\right)^2 &\\leq \\frac{\\theta(1 - \\theta)}{n} \\frac{1 + w}{1 - w}\\\\\n&\\leq \\frac{\\theta(1 - \\theta) (2n + a + b)}{n(a+b)}\n\\end{aligned}\n\\]\nIn words, if our prior guess \\(a / (a+b)\\) is “close enough” to \\(\\theta\\), where “close enough” is defined by the inequality above and is proportional to the variance of the estimator, then the MSE of the Bayesian estimator is smaller."
   }
 ]
