@@ -81,7 +81,7 @@ schedule %>%
 |  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) [📝](/notes/normal-notes-written.pdf)| [hw 4](/hw/hw04.html)  |
 |  | Thu Feb 05 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html) [📝](/notes/BayesianRisk.pdf)   |  |
 | 6 | Mon Feb 09 | lab: normal data and estimators |  | [💻](/slides/lab-normal-and-estimators.html)  |  |
-|  | Tue Feb 10 | priors |  |  |  |
+|  | Tue Feb 10 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html) |  |
 |  | Thu Feb 12 | TBD |  |  |  |
 | 7 | Mon Feb 16 | lab |  |  |  |
 |  | Tue Feb 17 | review |  |  |  |
@@ -110,6 +110,9 @@ schedule %>%
 | 15 | Mon Apr 13 |  |  |  |  |
 |  | Tue Apr 14 |  |  |  |  |
 :::
+
+<!-- prepare material: -->
+<!-- - for regression: https://www.tandfonline.com/doi/abs/10.1198/016214507000001337 mixture of g priors -->
 
 <!-- | Week | Date | Topic | Reading | Notes | Assignment | -->
 

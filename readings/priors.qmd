@@ -1,0 +1,9 @@
+---
+title: "Preparatory reading: priors"
+# mainfont: Lato
+format: 
+  html:
+    toc: false
+---
+
+Objective Priors: An Introduction for Frequentists by Malay Ghosh: [https://arxiv.org/pdf/1108.2120](https://arxiv.org/pdf/1108.2120)
