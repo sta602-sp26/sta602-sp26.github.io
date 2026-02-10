@@ -78,11 +78,11 @@ schedule %>%
 |  | Tue Jan 27 | intro to Monte Carlo | [📖](/readings/introMonteCarlo.html) | [🗒](/notes/lec05-introMonteCarlo.html) | [hw 3](/hw/hw03.html) |
 |  | Thu Jan 29 | predictive checks and MC error | Ch. 4 | [🗒](/notes/lec06-MonteCarloPredictionError.html) [📝](/notes/predictive-distributions.pdf) |  |
 | 5 | Mon Feb 02 | lab: mixture densities |  | [💻](/slides/lab-mixtures.html) |  |
-|  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) [📝](/notes/normal-notes-written.pdf)| [hw 4](/hw/hw04.html)  |
-|  | Thu Feb 05 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html) [📝](/notes/BayesianRisk.pdf)   |  |
-| 6 | Mon Feb 09 | lab: normal data and estimators |  | [💻](/slides/lab-normal-and-estimators.html)  |  |
-|  | Tue Feb 10 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html) |  |
-|  | Thu Feb 12 | TBD |  |  |  |
+|  | Tue Feb 03 | the normal model | Ch. 5 | [🗒](/notes/lec07-normalModel.html) [📝](/notes/normal-notes-written.pdf) | [hw 4](/hw/hw04.html) |
+|  | Thu Feb 05 | normal part II, risk and loss | Ch. 5 |  [📝](/notes/BayesianRisk.pdf) |  |
+| 6 | Mon Feb 09 | lab: normal data and estimators |  | [💻](/slides/lab-normal-and-estimators.html) |  |
+|  | Tue Feb 10 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html)[📝](/notes/estimators.pdf) |  |
+|  | Thu Feb 12 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html) |  |
 | 7 | Mon Feb 16 | lab |  |  |  |
 |  | Tue Feb 17 | review |  |  |  |
 |  | Thu Feb 19 | exam I |  |  |  |
@@ -112,6 +112,7 @@ schedule %>%
 :::
 
 <!-- prepare material: -->
+
 <!-- - for regression: https://www.tandfonline.com/doi/abs/10.1198/016214507000001337 mixture of g priors -->
 
 <!-- | Week | Date | Topic | Reading | Notes | Assignment | -->
