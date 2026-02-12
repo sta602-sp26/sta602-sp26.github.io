@@ -82,7 +82,7 @@ schedule %>%
 |  | Thu Feb 05 | normal part II, risk and loss | Ch. 5 |  [📝](/notes/BayesianRisk.pdf) |  |
 | 6 | Mon Feb 09 | lab: normal data and estimators |  | [💻](/slides/lab-normal-and-estimators.html) |  |
 |  | Tue Feb 10 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html)[📝](/notes/estimators.pdf) |  |
-|  | Thu Feb 12 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html) |  |
+|  | Thu Feb 12 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html)[📝](/notes/priors.pdf) |  |
 | 7 | Mon Feb 16 | lab |  |  |  |
 |  | Tue Feb 17 | review |  |  |  |
 |  | Thu Feb 19 | exam I |  |  |  |
