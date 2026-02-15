@@ -83,7 +83,7 @@ schedule %>%
 | 6 | Mon Feb 09 | lab: normal data and estimators |  | [💻](/slides/lab-normal-and-estimators.html) |  |
 |  | Tue Feb 10 | estimators | Ch. 5 | [🗒](/notes/lec14-estimators.html)[📝](/notes/estimators.pdf) |  |
 |  | Thu Feb 12 | priors | [📖](/readings/priors.html) | [🗒](/notes/priors.html)[📝](/notes/priors.pdf) |  |
-| 7 | Mon Feb 16 | lab |  |  |  |
+| 7 | Mon Feb 16 | lab: Jeffreys prior; exam review |  | [💻](/slides/jeffreys-prior-lab.html) |  |
 |  | Tue Feb 17 | review |  |  |  |
 |  | Thu Feb 19 | exam I |  |  |  |
 | 8 | Mon Feb 23 |  |  |  |  |

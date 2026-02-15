@@ -18,4 +18,4 @@ In lab.
 
 ## Exam prep
 
-Review [chapter summaries](/chapterSummaries.html).
+Review [chapter summaries](/chapterSummaries.html) 2-5.
