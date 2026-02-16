@@ -184,7 +184,7 @@ then
 $$
 \begin{aligned}
 \theta | \sigma^2, y_1,\ldots y_n &\sim \text{normal}\\
-\sigma^2 | y_1,\ldots y_n &\sim \text{gamma}
+\frac{1}{\sigma^2} | y_1,\ldots y_n &\sim \text{gamma}
 \end{aligned}
 $$
 
