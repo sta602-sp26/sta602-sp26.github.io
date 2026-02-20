@@ -1,0 +1,21 @@
+{
+  "hash": "95981bac63dffdb48356db2844bf8444",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Recap and simulation validation\"\nformat: \n    revealjs:\n      mainfont: Lato\n      smaller: true\n---\n\n\n\n## Goal\n\nThe goal of this lab is to (1) comprehensively recap some of the main ideas introduced to date and (2) to think about how you can validate certain ideas via simulation.\n\n\n## Exercise I\n\n- Read about the Pareto distribution using `?Pareto::rPareto()`. \n  - Note: You might need to install the package first, `install.packages(\"Pareto\")`\n- Simulate data using `rPareto` for some fixed $\\alpha$, $t$.\n- Evaluate the likelihood you derive in exercise 1a) on the exam and compare to `Pareto::dPareto()` from the package using the simulated data.\n\n## Exercise II\n\nCode exercise 1c from the exam.\n\n\n\n\n\n\n\n## Exercise III\n\n- Come up with a way to empirically verify exercise 2b from the exam.\n\n\n## Exercise IV\n\n**Gibbs sampling preview**\n\n*Setup* \n\n- Let $\\sigma^2 = 1$, $a = 3$, $b = 3$.\n- For purposes of simulation, let the *true* vector $w$ and $\\theta$ be given below:\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nw <- c(0.22, 1.96, 0.93, 1.41, 1.21, 0.73, 1.05, 0.3, 2.16, 0.86)\ntheta <- 3\n```\n:::\n\n\n\n- Simulate 10 data points using the true $w$ and $\\theta$.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nset.seed(602)\ny <- rnorm(10, mean = theta, sd = sqrt(1/w))\ny\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1]  0.1815659  2.9543230  1.9445135  2.2912534  2.3180451  1.8834146\n [7]  2.3536151 -1.3851446  2.8426164  2.9597361\n```\n\n\n:::\n:::\n\n\n\nNext, alternate sampling from each full conditional density (10000 times), as derived in exercise 2 from the exam. In other words, \n\n1) sample from $\\theta | \\boldsymbol{w}, \\boldsymbol{y}$, next\n2) using that new value of $\\theta$, sample $w_i | \\theta, \\boldsymbol{w}_{-i}, \\boldsymbol{y}$, for $i$ in $1,\\ldots, 10$\n3) Repeat, starting at step 1.\n\n## Exercise IV (part ii)\n\nPlot histograms/density functions of the marginal distribution of each set of samples $\\{\\theta^{(1)}, \\ldots, \\theta^{(10000)}\\}$. Repeat for each $w_i$. Comment on what you see. We'll get back to *why* this works in just a few classes.\n",
+    "supporting": [
+      "lab-simulation_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

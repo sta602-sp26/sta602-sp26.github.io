@@ -1,0 +1,72 @@
+---
+title: "Recap and simulation validation"
+format: 
+    revealjs:
+      mainfont: Lato
+      smaller: true
+---
+
+## Goal
+
+The goal of this lab is to (1) comprehensively recap some of the main ideas introduced to date and (2) to think about how you can validate certain ideas via simulation.
+
+
+## Exercise I
+
+- Read about the Pareto distribution using `?Pareto::rPareto()`. 
+  - Note: You might need to install the package first, `install.packages("Pareto")`
+- Simulate data using `rPareto` for some fixed $\alpha$, $t$.
+- Evaluate the likelihood you derive in exercise 1a) on the exam and compare to `Pareto::dPareto()` from the package using the simulated data.
+
+## Exercise II
+
+Code exercise 1c from the exam.
+
+```{r}
+#| include: false
+set.seed(602)
+S <- 10000
+alpha <- rgamma(S, 3, 1)
+ytilde <- Pareto::rPareto(S, t = 2, alpha = alpha)
+mean(ytilde > 4)
+
+ytilde[ytilde< 20] |>
+    hist()
+```
+
+## Exercise III
+
+- Come up with a way to empirically verify exercise 2b from the exam.
+
+
+## Exercise IV
+
+**Gibbs sampling preview**
+
+*Setup* 
+
+- Let $\sigma^2 = 1$, $a = 3$, $b = 3$.
+- For purposes of simulation, let the *true* vector $w$ and $\theta$ be given below:
+
+```{r}
+w <- c(0.22, 1.96, 0.93, 1.41, 1.21, 0.73, 1.05, 0.3, 2.16, 0.86)
+theta <- 3
+```
+
+- Simulate 10 data points using the true $w$ and $\theta$.
+
+```{r}
+set.seed(602)
+y <- rnorm(10, mean = theta, sd = sqrt(1/w))
+y
+```
+
+Next, alternate sampling from each full conditional density (10000 times), as derived in exercise 2 from the exam. In other words, 
+
+1) sample from $\theta | \boldsymbol{w}, \boldsymbol{y}$, next
+2) using that new value of $\theta$, sample $w_i | \theta, \boldsymbol{w}_{-i}, \boldsymbol{y}$, for $i$ in $1,\ldots, 10$
+3) Repeat, starting at step 1.
+
+## Exercise IV (part ii)
+
+Plot histograms/density functions of the marginal distribution of each set of samples $\{\theta^{(1)}, \ldots, \theta^{(10000)}\}$. Repeat for each $w_i$. Comment on what you see. We'll get back to *why* this works in just a few classes.

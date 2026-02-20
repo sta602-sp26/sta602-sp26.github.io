@@ -86,29 +86,29 @@ schedule %>%
 | 7 | Mon Feb 16 | lab: Jeffreys prior; exam review |  | [💻](/slides/jeffreys-prior-lab.html) |  |
 |  | Tue Feb 17 | review |  |  |  |
 |  | Thu Feb 19 | exam I |  |  |  |
-| 8 | Mon Feb 23 |  |  |  |  |
-|  | Tue Feb 24 |  |  |  |  |
-|  | Thu Feb 26 |  |  |  |  |
-| 9 | Mon Mar 02 |  |  |  |  |
-|  | Tue Mar 03 |  |  |  |  |
-|  | Thu Mar 05 |  |  |  |  |
+| 8 | Mon Feb 23 | lab: recap |  | [💻](/slides/lab-simulation.html) |  |
+|  | Tue Feb 24 | Metropolis algorithm | Ch. 10 |  |  |
+|  | Thu Feb 26 | MCMC diagnostics | Ch. 6, 10  |  |  |
+| 9 | Mon Mar 02 | lab: Metropolis-Hastings |  |  |  |
+|  | Tue Mar 03 | Gibbs sampling | Ch. 6 |  |  |
+|  | Thu Mar 05 | multivariate normal | Ch. 6 |  |  |
 | 10 | Mon Mar 09 | NO CLASS |  |  |  |
 |  | Tue Mar 10 | NO CLASS |  |  |  |
 |  | Thu Mar 12 | NO CLASS |  |  |  |
-| 11 | Mon Mar 16 |  |  |  |  |
-|  | Tue Mar 17 |  |  |  |  |
-|  | Thu Mar 19 |  |  |  |  |
-| 12 | Mon Mar 23 |  |  |  |  |
-|  | Tue Mar 24 |  |  |  |  |
-|  | Thu Mar 26 |  |  |  |  |
-| 13 | Mon Mar 30 |  |  |  |  |
-|  | Tue Mar 31 |  |  |  |  |
-|  | Thu Apr 02 |  |  |  |  |
-| 14 | Mon Apr 06 |  |  |  |  |
-|  | Tue Apr 07 |  |  |  |  |
-|  | Thu Apr 09 |  |  |  |  |
-| 15 | Mon Apr 13 |  |  |  |  |
-|  | Tue Apr 14 |  |  |  |  |
+| 11 | Mon Mar 16 | lab |  |  |  |
+|  | Tue Mar 17 | Bayesian regression  | Ch. 7, [background](/notes/lec12-regression-intro.html)  |  |  |
+|  | Thu Mar 19 | hierarchical modeling | Ch. 8 |  |  |
+| 12 | Mon Mar 23 | lab |  |  |  |
+|  | Tue Mar 24 | model averaging | Ch. 9 sec. 3 |  |  |
+|  | Thu Mar 26 | mixed effects models  | Ch. 11 |  |  |
+| 13 | Mon Mar 30 | lab: exam review |  |  |  |
+|  | Tue Mar 31 | Hamiltonian Monte Carlo|  |  |  |
+|  | Thu Apr 02 | exam II |  |  |  |
+| 14 | Mon Apr 06 | lab |  |  |  |
+|  | Tue Apr 07 | Bayesian inverse problems |  |  |  |
+|  | Thu Apr 09 | missing data  | Ch. 7 |  |  |
+| 15 | Mon Apr 13 | lab: inverse problem |  |  |  |
+|  | Tue Apr 14 | practice for final |  |  |  |
 :::
 
 <!-- prepare material: -->
