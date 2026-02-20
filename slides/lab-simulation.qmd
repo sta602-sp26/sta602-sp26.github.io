@@ -34,12 +34,9 @@ ytilde[ytilde< 20] |>
     hist()
 ```
 
+
+
 ## Exercise III
-
-- Come up with a way to empirically verify exercise 2b from the exam.
-
-
-## Exercise IV
 
 **Gibbs sampling preview**
 
@@ -49,24 +46,31 @@ ytilde[ytilde< 20] |>
 - For purposes of simulation, let the *true* vector $w$ and $\theta$ be given below:
 
 ```{r}
-w <- c(0.22, 1.96, 0.93, 1.41, 1.21, 0.73, 1.05, 0.3, 2.16, 0.86)
-theta <- 3
+set.seed(602)
+N <- 10
+w <- rgamma(N, 3, 3)
+thetaTrue <- .3
+sigma2 <- 1
 ```
 
 - Simulate 10 data points using the true $w$ and $\theta$.
 
 ```{r}
 set.seed(602)
-y <- rnorm(10, mean = theta, sd = sqrt(1/w))
-y
+y <- rnorm(N, mean = thetaTrue, sd = sqrt(sigma2/w))
 ```
 
-Next, alternate sampling from each full conditional density (10000 times), as derived in exercise 2 from the exam. In other words, 
+Next, alternate sampling from each full conditional density some large number of times, as derived in exercise 2 from the exam. In other words, 
 
 1) sample from $\theta | \boldsymbol{w}, \boldsymbol{y}$, next
 2) using that new value of $\theta$, sample $w_i | \theta, \boldsymbol{w}_{-i}, \boldsymbol{y}$, for $i$ in $1,\ldots, 10$
 3) Repeat, starting at step 1.
 
-## Exercise IV (part ii)
+## Exercise III (part ii)
 
-Plot histograms/density functions of the marginal distribution of each set of samples $\{\theta^{(1)}, \ldots, \theta^{(10000)}\}$. Repeat for each $w_i$. Comment on what you see. We'll get back to *why* this works in just a few classes.
+Plot the empirical density function of the marginal posterior distribution of $\theta$, i.e. plot a density/histogram plot of $\{\theta^{(1)}, \ldots, \theta^{(10000)}\}$. 
+Also plot the marginal posterior density of each $w_i$. Comment on what you see. We'll get back to *why* this works in just a few classes.
+
+## Exercise IV
+
+- Come up with a way to empirically verify exercise 2b from the exam. Discuss with your neighbor and implement.

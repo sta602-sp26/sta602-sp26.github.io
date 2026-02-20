@@ -221,12 +221,6 @@
 </section>
 <section id="exercise-iii" class="slide level2">
 <h2>Exercise III</h2>
-<ul>
-<li>Come up with a way to empirically verify exercise 2b from the exam.</li>
-</ul>
-</section>
-<section id="exercise-iv" class="slide level2">
-<h2>Exercise IV</h2>
 <p><strong>Gibbs sampling preview</strong></p>
 <p><em>Setup</em></p>
 <ul>
@@ -234,31 +228,35 @@
 <li>For purposes of simulation, let the <em>true</em> vector <span class="math inline">\(w\)</span> and <span class="math inline">\(\theta\)</span> be given below:</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>w <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">0.22</span>, <span class="fl">1.96</span>, <span class="fl">0.93</span>, <span class="fl">1.41</span>, <span class="fl">1.21</span>, <span class="fl">0.73</span>, <span class="fl">1.05</span>, <span class="fl">0.3</span>, <span class="fl">2.16</span>, <span class="fl">0.86</span>)</span>
-<span id="cb1-2"><a></a>theta <span class="ot">&lt;-</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">set.seed</span>(<span class="dv">602</span>)</span>
+<span id="cb1-2"><a></a>N <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb1-3"><a></a>w <span class="ot">&lt;-</span> <span class="fu">rgamma</span>(N, <span class="dv">3</span>, <span class="dv">3</span>)</span>
+<span id="cb1-4"><a></a>thetaTrue <span class="ot">&lt;-</span> .<span class="dv">3</span></span>
+<span id="cb1-5"><a></a>sigma2 <span class="ot">&lt;-</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Simulate 10 data points using the true <span class="math inline">\(w\)</span> and <span class="math inline">\(\theta\)</span>.</li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">set.seed</span>(<span class="dv">602</span>)</span>
-<span id="cb2-2"><a></a>y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> theta, <span class="at">sd =</span> <span class="fu">sqrt</span>(<span class="dv">1</span><span class="sc">/</span>w))</span>
-<span id="cb2-3"><a></a>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1]  0.1815659  2.9543230  1.9445135  2.2912534  2.3180451  1.8834146
- [7]  2.3536151 -1.3851446  2.8426164  2.9597361</code></pre>
+<span id="cb2-2"><a></a>y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(N, <span class="at">mean =</span> thetaTrue, <span class="at">sd =</span> <span class="fu">sqrt</span>(sigma2<span class="sc">/</span>w))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<p>Next, alternate sampling from each full conditional density (10000 times), as derived in exercise 2 from the exam. In other words,</p>
+<p>Next, alternate sampling from each full conditional density some large number of times, as derived in exercise 2 from the exam. In other words,</p>
 <ol type="1">
 <li>sample from <span class="math inline">\(\theta | \boldsymbol{w}, \boldsymbol{y}\)</span>, next</li>
 <li>using that new value of <span class="math inline">\(\theta\)</span>, sample <span class="math inline">\(w_i | \theta, \boldsymbol{w}_{-i}, \boldsymbol{y}\)</span>, for <span class="math inline">\(i\)</span> in <span class="math inline">\(1,\ldots, 10\)</span></li>
 <li>Repeat, starting at step 1.</li>
 </ol>
 </section>
-<section id="exercise-iv-part-ii" class="slide level2">
-<h2>Exercise IV (part ii)</h2>
-<p>Plot histograms/density functions of the marginal distribution of each set of samples <span class="math inline">\(\{\theta^{(1)}, \ldots, \theta^{(10000)}\}\)</span>. Repeat for each <span class="math inline">\(w_i\)</span>. Comment on what you see. We’ll get back to <em>why</em> this works in just a few classes.</p>
+<section id="exercise-iii-part-ii" class="slide level2">
+<h2>Exercise III (part ii)</h2>
+<p>Plot the empirical density function of the marginal posterior distribution of <span class="math inline">\(\theta\)</span>, i.e.&nbsp;plot a density/histogram plot of <span class="math inline">\(\{\theta^{(1)}, \ldots, \theta^{(10000)}\}\)</span>. Also plot the marginal posterior density of each <span class="math inline">\(w_i\)</span>. Comment on what you see. We’ll get back to <em>why</em> this works in just a few classes.</p>
+</section>
+<section id="exercise-iv" class="slide level2">
+<h2>Exercise IV</h2>
+<ul>
+<li>Come up with a way to empirically verify exercise 2b from the exam. Discuss with your neighbor and implement.</li>
+</ul>
 
 
 </section>

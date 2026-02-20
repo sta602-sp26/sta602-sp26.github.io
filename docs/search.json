@@ -305,14 +305,14 @@
     "href": "slides/lab-simulation.html#exercise-iii",
     "title": "Recap and simulation validation",
     "section": "Exercise III",
-    "text": "Exercise III\n\nCome up with a way to empirically verify exercise 2b from the exam."
+    "text": "Exercise III\nGibbs sampling preview\nSetup\n\nLet \\(\\sigma^2 = 1\\), \\(a = 3\\), \\(b = 3\\).\nFor purposes of simulation, let the true vector \\(w\\) and \\(\\theta\\) be given below:\n\n\nset.seed(602)\nN &lt;- 10\nw &lt;- rgamma(N, 3, 3)\nthetaTrue &lt;- .3\nsigma2 &lt;- 1\n\n\nSimulate 10 data points using the true \\(w\\) and \\(\\theta\\).\n\n\nset.seed(602)\ny &lt;- rnorm(N, mean = thetaTrue, sd = sqrt(sigma2/w))\n\nNext, alternate sampling from each full conditional density some large number of times, as derived in exercise 2 from the exam. In other words,\n\nsample from \\(\\theta | \\boldsymbol{w}, \\boldsymbol{y}\\), next\nusing that new value of \\(\\theta\\), sample \\(w_i | \\theta, \\boldsymbol{w}_{-i}, \\boldsymbol{y}\\), for \\(i\\) in \\(1,\\ldots, 10\\)\nRepeat, starting at step 1."
   },
   {
     "objectID": "slides/lab-simulation.html#exercise-iv",
     "href": "slides/lab-simulation.html#exercise-iv",
     "title": "Recap and simulation validation",
     "section": "Exercise IV",
-    "text": "Exercise IV\nGibbs sampling preview\nSetup\n\nLet \\(\\sigma^2 = 1\\), \\(a = 3\\), \\(b = 3\\).\nFor purposes of simulation, let the true vector \\(w\\) and \\(\\theta\\) be given below:\n\n\nw &lt;- c(0.22, 1.96, 0.93, 1.41, 1.21, 0.73, 1.05, 0.3, 2.16, 0.86)\ntheta &lt;- 3\n\n\nSimulate 10 data points using the true \\(w\\) and \\(\\theta\\).\n\n\nset.seed(602)\ny &lt;- rnorm(10, mean = theta, sd = sqrt(1/w))\ny\n\n [1]  0.1815659  2.9543230  1.9445135  2.2912534  2.3180451  1.8834146\n [7]  2.3536151 -1.3851446  2.8426164  2.9597361\n\n\nNext, alternate sampling from each full conditional density (10000 times), as derived in exercise 2 from the exam. In other words,\n\nsample from \\(\\theta | \\boldsymbol{w}, \\boldsymbol{y}\\), next\nusing that new value of \\(\\theta\\), sample \\(w_i | \\theta, \\boldsymbol{w}_{-i}, \\boldsymbol{y}\\), for \\(i\\) in \\(1,\\ldots, 10\\)\nRepeat, starting at step 1."
+    "text": "Exercise IV\n\nCome up with a way to empirically verify exercise 2b from the exam. Discuss with your neighbor and implement."
   },
   {
     "objectID": "slides/lab-simulation.html#exercise-iv-part-ii",
@@ -320,5 +320,12 @@
     "title": "Recap and simulation validation",
     "section": "Exercise IV (part ii)",
     "text": "Exercise IV (part ii)\nPlot histograms/density functions of the marginal distribution of each set of samples \\(\\{\\theta^{(1)}, \\ldots, \\theta^{(10000)}\\}\\). Repeat for each \\(w_i\\). Comment on what you see. We’ll get back to why this works in just a few classes."
+  },
+  {
+    "objectID": "slides/lab-simulation.html#exercise-iii-part-ii",
+    "href": "slides/lab-simulation.html#exercise-iii-part-ii",
+    "title": "Recap and simulation validation",
+    "section": "Exercise III (part ii)",
+    "text": "Exercise III (part ii)\nPlot the empirical density function of the marginal posterior distribution of \\(\\theta\\), i.e. plot a density/histogram plot of \\(\\{\\theta^{(1)}, \\ldots, \\theta^{(10000)}\\}\\). Also plot the marginal posterior density of each \\(w_i\\). Comment on what you see. We’ll get back to why this works in just a few classes."
   }
 ]
