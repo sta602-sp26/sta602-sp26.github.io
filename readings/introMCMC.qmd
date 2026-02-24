@@ -1,0 +1,11 @@
+---
+title: "Preparatory reading: Markov chain Monte Carlo"
+# mainfont: Lato
+format: 
+  html:
+    toc: false
+---
+
+- Chapter 10 of Hoff
+- [A history of Metropolis-Hastings algorithm](https://www.jstor.org/stable/30037292?seq=1)
+
