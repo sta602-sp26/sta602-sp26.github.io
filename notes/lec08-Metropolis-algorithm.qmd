@@ -174,7 +174,7 @@ This is also called the "memoryless property". In other words, "What happens nex
 ## Example
 
 ```{r}
-set.seed(360)
+set.seed(602)
 S = 10
 theta_s = 0 # starting point for the Markov chain
 THETA = NULL
@@ -272,7 +272,7 @@ where $\hat{\sigma}^2$ is the sample variance of $\{\log(y_1 + 1/2), \ldots, \lo
 :::
 
 ```{r}
-set.seed(360)
+set.seed(602)
 n = length(y)
 p = ncol(X)
 
@@ -375,7 +375,7 @@ We have to choose $\delta$. How should we choose it? Let's gain some intuition b
 ```{r}
 #| echo: true
 #| eval: false
-set.seed(360)
+set.seed(602)
 theta_s = 0 # starting point
 THETA = NULL # empty object to save iterations in
 S = 10000 # number of iterations
@@ -402,7 +402,7 @@ for (s in 1:S) {
 ```{r}
 #| echo: false
 #| eval: true
-set.seed(360)
+set.seed(602)
 theta_s = 0 # starting point
 THETA = NULL
 THETA_P = NULL # empty object to save iterations in
@@ -483,7 +483,7 @@ outdir = getwd()
 #| echo: false
 # DIFFERENT DELTA ##
 
-set.seed(360)
+set.seed(602)
 theta_s = 0 # starting point
 THETA = NULL
 THETA_P = NULL # empty object to save iterations in
@@ -561,7 +561,7 @@ outdir = getwd()
 #| echo: false
 # DIFFERENT DELTA ##
 
-set.seed(360)
+set.seed(602)
 theta_s = 0 # starting point
 THETA = NULL
 THETA_P = NULL # empty object to save iterations in
@@ -646,7 +646,7 @@ Let's look at the trace plots for each $\delta$.
 ```{r}
 #| echo: false
 #| warning: false
-set.seed(360)
+set.seed(602)
 theta_s1 = 0 # starting point
 theta_s2 = 0
 theta_s3 = 0
