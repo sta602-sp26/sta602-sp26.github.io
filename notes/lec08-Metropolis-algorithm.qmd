@@ -86,7 +86,7 @@ In other words,
 $\theta_x = e^{\beta_1 + \beta_2x + \beta_3 x^2}$ \> 0
 :::
 
-Some terminology that will be useful in the future: $Y|X \sim Poisson(e^{\beta^T \mathbf{x}})$ is "Poisson regression". Where $\beta^T \mathbf{x} = \beta_1 + \beta_2 x + \beta_2 x^2$.\
+Some terminology that will be useful in the future: $Y|X \sim Poisson(e^{\beta^T \mathbf{x}})$ is "Poisson regression". Where $\beta^T \mathbf{x} = \beta_1 + \beta_2 x + \beta_3 x^2$.\
 $\beta^T \mathbf{x}$ is called the "linear predictor".
 
 ::: panel-tabset
