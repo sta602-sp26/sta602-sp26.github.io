@@ -13,6 +13,7 @@ format:
 #| code-fold: true
 #| code-summary: View libraries used in these notes
 library(tidyverse)
+library(coda)
 ```
 
 # Practice example
@@ -30,7 +31,7 @@ $$
 #| label: load-data
 #| warning: false
 #| message: false
-bass = read_csv("https://sta360-fa24.github.io/data/bass.csv")
+bass = read_csv("https://sta602-sp26.github.io/data/bass.csv")
 y = bass$mercury
 x = bass$weight
 ```
@@ -179,8 +180,7 @@ The higher the autocorrelation, the more samples we need to obtain a given level
 
 ```{r}
 #| warning: false
-library(coda)
-effectiveSize(THETA1)
+coda::effectiveSize(THETA1)
 ```
 
 More precisely, the **effective sample size** (ESS) is the value $S_{eff}$ such that

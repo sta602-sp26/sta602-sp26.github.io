@@ -223,7 +223,8 @@ window.Quarto = {
 <div class="cell">
 <details class="code-fold">
 <summary>View libraries used in these notes</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(coda)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <section id="practice-example" class="level1">
@@ -236,7 +237,7 @@ Y_i | \theta_1, \theta_2 &amp;\sim N(\theta_1 + \theta_2 x_i, 1)\\
 \end{aligned}
 \]</span></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>bass <span class="ot">=</span> <span class="fu">read_csv</span>(<span class="st">"https://sta360-fa24.github.io/data/bass.csv"</span>)</span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>bass <span class="ot">=</span> <span class="fu">read_csv</span>(<span class="st">"https://sta602-sp26.github.io/data/bass.csv"</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">=</span> bass<span class="sc">$</span>mercury</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> bass<span class="sc">$</span>weight</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -327,13 +328,13 @@ Y_i | \theta_1, \theta_2 &amp;\sim N(\theta_1 + \theta_2 x_i, 1)\\
 <tbody>
 <tr class="odd">
 <td><span class="math inline">\(\theta_1\)</span></td>
-<td>0.64</td>
-<td>(0.4, 0.87)</td>
+<td>0.65</td>
+<td>(0.41, 0.91)</td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\theta_2\)</span></td>
-<td>0.48</td>
-<td>(0.33, 0.65)</td>
+<td>0.47</td>
+<td>(0.29, 0.64)</td>
 </tr>
 </tbody>
 </table>
@@ -418,13 +419,13 @@ F-statistic: 74.77 on 1 and 169 DF,  p-value: 3.929e-15</code></pre>
 Autocorrelations of series 'THETA1', by lag
 
     0     1     2     3     4     5     6     7     8     9    10    11    12 
-1.000 0.914 0.847 0.792 0.748 0.706 0.670 0.637 0.607 0.576 0.549 0.523 0.499 
+1.000 0.913 0.841 0.781 0.729 0.684 0.645 0.611 0.582 0.553 0.526 0.503 0.481 
    13    14    15    16    17    18    19    20    21    22    23    24    25 
-0.477 0.453 0.430 0.410 0.392 0.374 0.357 0.344 0.332 0.322 0.312 0.299 0.286 
+0.460 0.440 0.419 0.397 0.377 0.357 0.338 0.322 0.305 0.291 0.279 0.268 0.257 
    26    27    28    29    30    31    32    33    34    35    36    37    38 
-0.277 0.270 0.260 0.250 0.241 0.232 0.225 0.218 0.212 0.205 0.197 0.188 0.179 
+0.245 0.234 0.222 0.210 0.200 0.191 0.184 0.177 0.170 0.165 0.160 0.156 0.152 
    39    40 
-0.172 0.165 </code></pre>
+0.148 0.145 </code></pre>
 </div>
 </div>
 <p>The higher the autocorrelation, the more samples we need to obtain a given level of precision for our approximation. One way to state how precise our approximation is, is with <em>effective sample size</em>.</p>
@@ -432,11 +433,10 @@ Autocorrelations of series 'THETA1', by lag
 <li><strong>effective sample size</strong> (ESS): intuitively this is the effective number of exact samples “contained” in the Markov chain (see <a href="https://arxiv.org/pdf/1701.02434.pdf">Betancourt 2018</a>). For further reading on ESS, see <a href="https://mc-stan.org/docs/reference-manual/effective-sample-size.html">the stan manual</a>. In practice we use <code>coda::effectiveSize()</code> function to compute. Example:</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(coda)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">effectiveSize</span>(THETA1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>coda<span class="sc">::</span><span class="fu">effectiveSize</span>(THETA1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    var1 
-293.4412 </code></pre>
+299.9338 </code></pre>
 </div>
 </div>
 <p>More precisely, the <strong>effective sample size</strong> (ESS) is the value <span class="math inline">\(S_{eff}\)</span> such that</p>
