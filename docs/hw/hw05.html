@@ -184,7 +184,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Homework 5</h1>
-<p class="subtitle lead">Due Friday March 7 at 5:00pm</p>
+<p class="subtitle lead">Due Friday March 6 at 5:00pm</p>
 </div>
 
 
@@ -216,7 +216,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="exercise-2">Exercise 2</h2>
 <p>Younger male sparrows may or may not nest during a mating season, perhaps depending on their physical characteristics. Researchers have recorded the nesting success of 43 young male sparrows of the same age, as well as their wingspan. Run the code below to load the data:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>yXsparrow <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://sta602-sp25.github.io/data/yXsparrow.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>yXsparrow <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://sta602-sp26.github.io/data/yXsparrow.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Let <span class="math inline">\(Y_i\)</span> be the binary indicator that sparrow <span class="math inline">\(i\)</span> successfully nests, and let <span class="math inline">\(x_i\)</span> denote their wingspan. Our model for <span class="math inline">\(Y_i\)</span> is logit <span class="math inline">\(Pr(Y_i = 1 | \alpha, \beta, x_i) = \alpha + \beta x_i\)</span>, where the logit function is given by logit <span class="math inline">\(\theta = \log \left[\frac{\theta}{(1 - \theta)} \right]\)</span>.</p>
 <ol type="a">
@@ -241,8 +241,8 @@ f_{\alpha, \beta}(x) = \frac{e^{\alpha + \beta x}}{1 + e^{\alpha + \beta x}}
 <p>Code for this exercise is provided below,</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load the data</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>trans.prob.mat <span class="ot">=</span> <span class="fu">readRDS</span>(<span class="fu">url</span>(<span class="st">"https://sta602-sp25.github.io/data/trans-prob-mat.rds"</span>))</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cipher_text <span class="ot">=</span> <span class="fu">readLines</span>(<span class="st">"https://sta602-sp25.github.io/data/ciphertext.txt"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>trans.prob.mat <span class="ot">=</span> <span class="fu">readRDS</span>(<span class="fu">url</span>(<span class="st">"https://sta602-sp26.github.io/data/trans-prob-mat.rds"</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cipher_text <span class="ot">=</span> <span class="fu">readLines</span>(<span class="st">"https://sta602-sp26.github.io/data/ciphertext.txt"</span>)</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>pl <span class="ot">=</span> <span class="cf">function</span>(decoded) {</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  logprob <span class="ot">=</span> <span class="dv">0</span></span>

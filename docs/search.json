@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bayesian statistical modeling and data analysis",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nnormal part II, risk and loss\nCh. 5\n📝\n\n\n\n6\nMon Feb 09\nlab: normal data and estimators\n\n💻\n\n\n\n\nTue Feb 10\nestimators\nCh. 5\n🗒📝\n\n\n\n\nThu Feb 12\npriors\n📖\n🗒📝\n\n\n\n7\nMon Feb 16\nlab: Jeffreys prior; exam review\n\n💻\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\nlab: recap\n\n💻\n\n\n\n\nTue Feb 24\nMetropolis algorithm\n📖\n🗒\n\n\n\n\nThu Feb 26\nMCMC diagnostics\nCh. 6, 10\n\n\n\n\n9\nMon Mar 02\nlab: Metropolis-Hastings\n\n\n\n\n\n\nTue Mar 03\nGibbs sampling\nCh. 6\n\n\n\n\n\nThu Mar 05\nmultivariate normal\nCh. 6\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\nlab\n\n\n\n\n\n\nTue Mar 17\nBayesian regression\nCh. 7, background\n\n\n\n\n\nThu Mar 19\nhierarchical modeling\nCh. 8\n\n\n\n\n12\nMon Mar 23\nlab\n\n\n\n\n\n\nTue Mar 24\nmodel averaging\nCh. 9 sec. 3\n\n\n\n\n\nThu Mar 26\nmixed effects models\nCh. 11\n\n\n\n\n13\nMon Mar 30\nlab: exam review\n\n\n\n\n\n\nTue Mar 31\nHamiltonian Monte Carlo\n\n\n\n\n\n\nThu Apr 02\nexam II\n\n\n\n\n\n14\nMon Apr 06\nlab\n\n\n\n\n\n\nTue Apr 07\nBayesian inverse problems\n\n\n\n\n\n\nThu Apr 09\nmissing data\nCh. 7\n\n\n\n\n15\nMon Apr 13\nlab: inverse problem\n\n\n\n\n\n\nTue Apr 14\npractice for final"
+    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nnormal part II, risk and loss\nCh. 5\n📝\n\n\n\n6\nMon Feb 09\nlab: normal data and estimators\n\n💻\n\n\n\n\nTue Feb 10\nestimators\nCh. 5\n🗒📝\n\n\n\n\nThu Feb 12\npriors\n📖\n🗒📝\n\n\n\n7\nMon Feb 16\nlab: Jeffreys prior; exam review\n\n💻\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\nlab: recap\n\n💻\n\n\n\n\nTue Feb 24\nMetropolis algorithm\n📖\n🗒\nhw 5\n\n\n\nThu Feb 26\nMCMC diagnostics\nCh. 6, 10\n\n\n\n\n9\nMon Mar 02\nlab: Metropolis-Hastings\n\n\n\n\n\n\nTue Mar 03\nGibbs sampling\nCh. 6\n\n\n\n\n\nThu Mar 05\nmultivariate normal\nCh. 6\n\n\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\nlab\n\n\n\n\n\n\nTue Mar 17\nBayesian regression\nCh. 7, background\n\n\n\n\n\nThu Mar 19\nhierarchical modeling\nCh. 8\n\n\n\n\n12\nMon Mar 23\nlab\n\n\n\n\n\n\nTue Mar 24\nmodel averaging\nCh. 9 sec. 3\n\n\n\n\n\nThu Mar 26\nmixed effects models\nCh. 11\n\n\n\n\n13\nMon Mar 30\nlab: exam review\n\n\n\n\n\n\nTue Mar 31\nHamiltonian Monte Carlo\n\n\n\n\n\n\nThu Apr 02\nexam II\n\n\n\n\n\n14\nMon Apr 06\nlab\n\n\n\n\n\n\nTue Apr 07\nBayesian inverse problems\n\n\n\n\n\n\nThu Apr 09\nmissing data\nCh. 7\n\n\n\n\n15\nMon Apr 13\nlab: inverse problem\n\n\n\n\n\n\nTue Apr 14\npractice for final"
   },
   {
     "objectID": "notes/lec14-estimators.html",
@@ -283,8 +283,8 @@
     "objectID": "slides/lab-simulation.html#goal",
     "href": "slides/lab-simulation.html#goal",
     "title": "Recap and simulation validation",
-    "section": "Goal",
-    "text": "Goal\nThe goal of this lab is to (1) comprehensively recap some of the main ideas introduced to date and (2) to think about how you can validate certain ideas via simulation."
+    "section": "",
+    "text": "The goal of this lab is to (1) comprehensively recap some of the main ideas introduced to date and (2) to think about how you can validate certain ideas via simulation."
   },
   {
     "objectID": "slides/lab-simulation.html#exercise-i",
@@ -383,5 +383,40 @@
     "title": "Preparatory reading: Markov chain Monte Carlo",
     "section": "",
     "text": "Chapter 10 of Hoff\nA history of Metropolis-Hastings algorithm"
+  },
+  {
+    "objectID": "slides/lab-simulation.html",
+    "href": "slides/lab-simulation.html",
+    "title": "Recap and simulation validation",
+    "section": "",
+    "text": "The goal of this lab is to (1) comprehensively recap some of the main ideas introduced to date and (2) to think about how you can validate certain ideas via simulation."
+  },
+  {
+    "objectID": "hw/hw05.html",
+    "href": "hw/hw05.html",
+    "title": "Homework 5",
+    "section": "",
+    "text": "You’ve been hired as a columnist to write for the statistics/mathematics section of an online magazine. Your editor knows you are enrolled in STA602 and has asked you to write about the Metropolis algorithm for the magazine. Specifically, your editor tells you that your article should answer the following:\n\nWhat is the Metropolis algorithm? What is the history of the algorithm?\nWhat can the Metropolis algorithm be used for?\nWhat is a proposal distribution?\nWhat’s the intuition behind why the algorithm works?\n\nAdditionally, the editor adds: your article needs to be strictly under 500 words (the shorter the better). Furthermore, your target audience has limited statistical background. For this reason, you should define all statistical terminology when you use it, in your own words."
+  },
+  {
+    "objectID": "hw/hw05.html#exercise-1",
+    "href": "hw/hw05.html#exercise-1",
+    "title": "Homework 5",
+    "section": "",
+    "text": "You’ve been hired as a columnist to write for the statistics/mathematics section of an online magazine. Your editor knows you are enrolled in STA602 and has asked you to write about the Metropolis algorithm for the magazine. Specifically, your editor tells you that your article should answer the following:\n\nWhat is the Metropolis algorithm? What is the history of the algorithm?\nWhat can the Metropolis algorithm be used for?\nWhat is a proposal distribution?\nWhat’s the intuition behind why the algorithm works?\n\nAdditionally, the editor adds: your article needs to be strictly under 500 words (the shorter the better). Furthermore, your target audience has limited statistical background. For this reason, you should define all statistical terminology when you use it, in your own words."
+  },
+  {
+    "objectID": "hw/hw05.html#exercise-2",
+    "href": "hw/hw05.html#exercise-2",
+    "title": "Homework 5",
+    "section": "Exercise 2",
+    "text": "Exercise 2\nYounger male sparrows may or may not nest during a mating season, perhaps depending on their physical characteristics. Researchers have recorded the nesting success of 43 young male sparrows of the same age, as well as their wingspan. Run the code below to load the data:\n\nyXsparrow = readr::read_csv(\"https://sta602-sp26.github.io/data/yXsparrow.csv\")\n\nLet \\(Y_i\\) be the binary indicator that sparrow \\(i\\) successfully nests, and let \\(x_i\\) denote their wingspan. Our model for \\(Y_i\\) is logit \\(Pr(Y_i = 1 | \\alpha, \\beta, x_i) = \\alpha + \\beta x_i\\), where the logit function is given by logit \\(\\theta = \\log \\left[\\frac{\\theta}{(1 - \\theta)} \\right]\\).\n\nWrite down the likelihood,\n\n\\[\n\\prod_{i=1}^n p(y_i | \\alpha, \\beta, x_i)\n\\] and simplify as much as possible.\n\nFormulate a prior probability distribution over \\(\\alpha\\) and \\(\\beta\\) by considering the range of \\(Pr(Y = 1 | \\alpha, \\beta, x)\\) as \\(x\\) ranges over 10 to 15, the approximate range of observed wingspans.\nImplement a Metropolis algorithm that approximates \\(p(\\alpha, \\beta | \\mathbf{y}, \\mathbf{x})\\). \\(\\mathbf{y} = y_1, \\ldots, y_n\\) and \\(\\mathbf{x} = x_1, \\ldots x_n\\). Adjust the proposal distribution to achieve a reasonable acceptance rate, and run the algorithm long enough so that the effective sample size is at least 100 for each parameter.\nReport trace plots for \\(\\alpha\\) and \\(\\beta\\). Additionally, compare the posterior densities of \\(\\alpha\\) and \\(\\beta\\) to their prior densities.\nUsing the output of the Metropolis algorithm, come up with a way to make a confidence band for the following function \\(f_{\\alpha, \\beta}(x)\\) of wingspan:\n\n\\[\nf_{\\alpha, \\beta}(x) = \\frac{e^{\\alpha + \\beta x}}{1 + e^{\\alpha + \\beta x}}\n\\]\nwhere \\(\\alpha\\) and \\(\\beta\\) are the parameters in your data generative model. Make a plot of such a band."
+  },
+  {
+    "objectID": "hw/hw05.html#exercise-3",
+    "href": "hw/hw05.html#exercise-3",
+    "title": "Homework 5",
+    "section": "Exercise 3",
+    "text": "Exercise 3\nCode for this exercise is provided below,\n\n# load the data\ntrans.prob.mat = readRDS(url(\"https://sta602-sp26.github.io/data/trans-prob-mat.rds\"))\ncipher_text = readLines(\"https://sta602-sp26.github.io/data/ciphertext.txt\")\n\npl = function(decoded) {\n  logprob = 0\n  prevletter = \"SPACE\"\n  for (i in 1:nchar(decoded)) {\n    curletter = substring(decoded, i, i)\n    if(curletter == \" \") {\n      curletter = \"SPACE\"\n    }\n    logprob = logprob + log(trans.prob.mat[rownames(trans.prob.mat) == prevletter,\n                                             colnames(trans.prob.mat) == curletter])\n    prevletter = curletter\n  }\n  return(logprob)\n} \n\nIn this exercise we will re-create the cryptanalysis tool described here to decrypt a secret message. Read pages 1-3 of the article by Persi Diaconis linked above.\n\nLoad the object trans.prob.matrix using the code above and examine. Based on your reading of the article, how can you interpret the entries of this matrix? Is it symmetric or not? Why does this make sense? The function pl(), given above, computes the “plausibility” score for a given decoding. Explain in detail what the code comprising pl() does.\nThe following code can help you get started:\n\n\n## alphabet with space\nalphabet = c(LETTERS, \" \")\n\n## decode: replace ciphertext with mapping\n\ndecode = function(mapping, coded) {\n  coded = toupper(coded)\n  decoded = coded\n  for (i in 1:nchar(coded)) {\n      substring(decoded, i, i) = alphabet[mapping == substring(coded, i, i)]\n  }\n  decoded\n}\n\nExplain, line-by-line what the function decode() above does. What are the arguments? What does the function return?\n\nFollow the pseudo-code outlined on page 2 of the article to write a MCMC algorithm and decrypt the secret message. Run your Markov chain for at least 1000 iterations and report the decoding with the highest plausibility score."
   }
 ]

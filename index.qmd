@@ -87,7 +87,7 @@ schedule %>%
 |  | Tue Feb 17 | review |  |  |  |
 |  | Thu Feb 19 | exam I |  |  |  |
 | 8 | Mon Feb 23 | lab: recap |  | [💻](/slides/lab-simulation.html) |  |
-|  | Tue Feb 24 | Metropolis algorithm | [📖](/readings/introMCMC.html) | [🗒](/notes/lec08-Metropolis-algorithm.html)  |  |
+|  | Tue Feb 24 | Metropolis algorithm | [📖](/readings/introMCMC.html) | [🗒](/notes/lec08-Metropolis-algorithm.html)  | [hw 5](/hw/hw05.html)   |
 |  | Thu Feb 26 | MCMC diagnostics | Ch. 6, 10  |  |  |
 | 9 | Mon Mar 02 | lab: Metropolis-Hastings |  |  |  |
 |  | Tue Mar 03 | Gibbs sampling | Ch. 6 |  |  |
