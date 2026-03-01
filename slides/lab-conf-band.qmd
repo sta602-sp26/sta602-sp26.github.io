@@ -31,7 +31,7 @@ library(invgamma)
 
 ```{r}
 #| echo: false
-set.seed(360)
+set.seed(602)
 x = rnorm(30, 0, 10)
 y = x * 2 + rnorm(30, 0, 3)
 
@@ -43,7 +43,7 @@ df = data.frame(y, x)
 ```{r}
 #| eval: false
 # load the data
-YX = readr::read_csv("https://sta602-sp25.github.io/data/simulatedXY.csv")
+YX = readr::read_csv("https://sta602-sp26.github.io/data/simulatedXY.csv")
 y = YX$y
 x = YX$x
 ```
@@ -57,7 +57,7 @@ p(\beta_1, \beta_2, \sigma^2 | y_1, \ldots, y_n, x_1, \ldots, x_n)
 $$.
 
 ```{r}
-set.seed(360)
+set.seed(602)
 logLikelihood = function(beta0, beta1, sigma2) {
   mu = beta0 + (beta1 * x)
   sum(dnorm(y, mu, sqrt(sigma2), log = TRUE))
@@ -246,7 +246,7 @@ apply(parameterDF, 2, effectiveSize)
 ## Longer run
 
 ```{r}
-set.seed(360)
+set.seed(602)
 logLikelihood = function(beta0, beta1, sigma2) {
   mu = beta0 + (beta1 * x)
   sum(dnorm(y, mu, sqrt(sigma2), log = TRUE))
