@@ -1,6 +1,6 @@
 ---
 title: "Homework 6"
-subtitle: "Due Friday March 21 at 5:00pm"
+subtitle: "Due Friday March 20 at 5:00pm"
 mainfont: Lato
 format: 
   html:
@@ -15,7 +15,8 @@ format:
 ```{r}
 #| eval: false
 
-glucose = readr::read_csv("https://sta602-sp25.github.io/data/glucose.csv")
+glucose = readr::read_csv(
+  "https://sta602-sp26.github.io/data/glucose.csv")
 
 ```
 
