@@ -95,7 +95,7 @@ schedule %>%
 | 10 | Mon Mar 09 | NO CLASS |  |  |  |
 |  | Tue Mar 10 | NO CLASS |  |  |  |
 |  | Thu Mar 12 | NO CLASS |  |  |  |
-| 11 | Mon Mar 16 | lab |  |  |  |
+| 11 | Mon Mar 16 | lab: office hours & regression review |  | |  |
 |  | Tue Mar 17 | Bayesian regression  | Ch. 9, [background](/notes/lec12-regression-intro.html)  |  |  |
 |  | Thu Mar 19 | hierarchical modeling | Ch. 8 |  |  |
 | 12 | Mon Mar 23 | lab |  |  |  |
