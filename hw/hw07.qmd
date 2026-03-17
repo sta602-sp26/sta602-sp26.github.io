@@ -1,6 +1,6 @@
 ---
 title: "Homework 7"
-subtitle: "Due Friday March 28 at 5:00pm"
+subtitle: "Due Friday March 27 at 5:00pm"
 mainfont: Lato
 format: 
   html:
@@ -23,7 +23,7 @@ Ridge regression application: The data set `yX.diabetes.train` contains data on 
 
 ```{r}
 #| eval: false
-yX<-dget(url("https://sta602-sp25.github.io/data/yX.diabetes.train"))
+yX<-dget(url("https://sta602-sp26.github.io/data/yX.diabetes.train"))
 ```
 
 a. For each value of $\lambda \in \{0, 1,  \ldots, 99, 100 \}$ compute the estimator $\hat{\beta}_{\lambda}$ based on exercise 1 above. Visualize each $\hat{\beta}$ as a function of $\lambda$ (maybe using `matplot`). Describe any trend(s) you notice in the plots.
@@ -33,7 +33,7 @@ b. Load the data set `yX.diabetes.test` using the code below
 ```{r}
 #| eval: false
 yX.diabetes.test<-dget(
-  url("https://sta602-sp25.github.io/data/yX.diabetes.test"))
+  url("https://sta602-sp26.github.io/data/yX.diabetes.test"))
 ```
 
 Use `yX.diabetes.test` to evaluate the predictive performance of each estimate you obtained in part a. Specifically, compute the predictive error sum of squares $PSS(\lambda) = ||y_{test} - X_{test} \hat{\beta}_{\lambda}||^2$ for each value of $\lambda$ (IMPORTANT: $\hat{\beta}_{\lambda}$ is obtained from the training data in part a, not the test data). Make a plot of PSS versus $\lambda$. How good is the unbiased OLS estimate for prediction, relative to the other estimates?
@@ -47,7 +47,7 @@ For this exercise, use the code below to load the data
 ```{r}
 #| eval: false
 yX = readRDS(
-  url("https://sta602-sp25.github.io/data/yXspectroscopy.rds"))
+  url("https://sta602-sp26.github.io/data/yXspectroscopy.rds"))
 ```
 
 
