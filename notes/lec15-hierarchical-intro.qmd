@@ -26,7 +26,7 @@ Each year, students across North Carolina take an identical standardized test. I
 ```{r}
 #| warning: false
 # load data
-mathScores = read_csv("https://sta360-fa24.github.io/data/mathScores.csv")
+mathScores = read_csv("https://sta602-sp26.github.io/data/mathScores.csv")
 ```
 
 ::: panel-tabset

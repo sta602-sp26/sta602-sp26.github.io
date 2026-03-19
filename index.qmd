@@ -97,7 +97,7 @@ schedule %>%
 |  | Thu Mar 12 | NO CLASS |  |  |  |
 | 11 | Mon Mar 16 | lab: office hours & regression review |  | |  |
 |  | Tue Mar 17 | Bayesian regression  | Ch. 9, [background](/notes/lec12-regression-intro.html)  | [🗒](/notes/lec13-BayesianRegression2.html) [📝](/notes/regression-notes.pdf)| [hw 7](/hw/hw07.html) |
-|  | Thu Mar 19 | hierarchical modeling | Ch. 8 |  |  |
+|  | Thu Mar 19 | hierarchical modeling | Ch. 8 | [🗒](/notes/lec15-hierarchical-intro.html) |  |
 | 12 | Mon Mar 23 | lab |  |  |  |
 |  | Tue Mar 24 | model averaging | Ch. 9 sec. 3 |  |  |
 |  | Thu Mar 26 | mixed effects models  | Ch. 11 |  |  |
