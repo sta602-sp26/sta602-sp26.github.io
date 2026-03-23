@@ -47,7 +47,7 @@ library(bayesplot)
 #| message: false
 library(tidyverse)
 spam = read_csv(
-  "https://sta602-sp25.github.io/data/spam.csv")
+  "https://sta602-sp26.github.io/data/spam.csv")
 ```
 
 ## Glimpse data
@@ -135,7 +135,7 @@ Read about how to fit Bayesian logistic regression using `rstanarm` here: [https
 Hint: use the `stan_glm` function. If you set arguments  `chains = 1`, this will run 1 Markov chain instead of the default 4. You can use the argument `iter=2000` to manually set the number of iterations in your Markov chain to 2000. This may take anywhere from 1-4 minutes to run locally on your machine. If you are pressed for time, you can load the resulting object directly from the website using the code below.
 
 ```{r}
-fit1 = readRDS(url("https://sta602-sp25.github.io/data/spam-train-fit.rds"))
+fit1 = readRDS(url("https://sta602-sp26.github.io/data/spam-train-fit.rds"))
 ```
 
 ## Exercise 2
