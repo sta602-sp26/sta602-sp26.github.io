@@ -177,7 +177,7 @@ library(coda)
 ```{r}
 #| code-fold: true
 #| code-summary: data load and setup
-yX.diabetes.train<-dget(url("https://sta360-fa24.github.io/data/yX.diabetes.train"))
+yX.diabetes.train<-dget(url("https://sta602-sp26.github.io/data/yX.diabetes.train"))
 
 X = yX.diabetes.train[,-1]
 y = yX.diabetes.train[,1]
@@ -356,7 +356,7 @@ betaHat == betaHat2
 ```{r}
 #| code-fold: true
 yX.diabetes.test<-dget(
-  url("https://sta360-fa24.github.io/data/yX.diabetes.test"))
+  url("https://sta602-sp26.github.io/data/yX.diabetes.test"))
 Xtest = yX.diabetes.test[,-1]
 ytest = yX.diabetes.test[,1]
 
