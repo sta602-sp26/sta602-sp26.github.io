@@ -1,5 +1,5 @@
 # From Hoff Ch 11.
-load(url("https://sta602-sp25.github.io/data/tumorLocation.RData"))
+load(url("https://sta602-sp26.github.io/data/tumorLocation.RData"))
 Y<-tumorLocation
 xs<-seq(.05,1,by=.05)
 X<-cbind(rep(1,ncol(Y)),poly(xs,deg=4,raw=TRUE))
