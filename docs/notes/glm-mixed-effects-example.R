@@ -29,7 +29,6 @@ rmvnorm<-function(n,mu,Sigma)
 }
 ###
 
-
 ### sample from the Wishart distribution
 rwish<-function(n,nu0,S0)
 {
@@ -42,11 +41,6 @@ rwish<-function(n,nu0,S0)
   }
   S[,,1:n]
 }
-###
-
-
-### tumor example
-XY.tumor<-dget("https://www2.stat.duke.edu/~pdh10/FCBS/Inline/XY.tumor")
 ###
 
 
@@ -120,3 +114,17 @@ colMeans(THETA.post)
 matrix(colMeans(SIGMA.post), nrow = 5, ncol = 5)
 
 apply(THETA.post, FUN = coda::effectiveSize, MARGIN = 2)
+
+### plotting; diagnostics
+library(tidyverse)
+colnames(THETA.post) <- paste0("theta", 1:5)
+
+## traceplots
+as.data.frame(THETA.post) |>
+  mutate(iter = 1:nrow(THETA.post)) |>
+  pivot_longer(-iter, names_to = "parameter", values_to = "value") |>
+  ggplot(aes(iter, value)) +
+  geom_line() +
+  facet_wrap( ~ parameter, scales = "free_y") +
+  theme_minimal()
+
