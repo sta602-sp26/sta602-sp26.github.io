@@ -101,7 +101,7 @@ schedule %>%
 | 12 | Mon Mar 23 | lab: rstanarm |  | [💻](/slides/lab8-rstan.html) |  |
 |  | Tue Mar 24 | model averaging | Ch. 9 sec. 3 | [🗒](/notes/BayesianModelAveraging.html) |  |
 |  | Thu Mar 26 | mixed effects models  | Ch. 11 | [📝](/notes/hierarchical-regression.pdf)[.R](/notes/glm-mixed-effects-example.R) |  |
-| 13 | Mon Mar 30 | lab: exam review |  |  |  |
+| 13 | Mon Mar 30 | lab: probit regression |  | [💻](/slides/probit-lab.html)  |  |
 |  | Tue Mar 31 | Hamiltonian Monte Carlo|[📖](/readings/readHMC.html)  | [🗒](/notes/HamiltonianMonteCarlo.html) |  |
 |  | Thu Apr 02 | exam II |  |  |  |
 | 14 | Mon Apr 06 | lab |  |  |  |

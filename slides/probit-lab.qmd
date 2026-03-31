@@ -22,6 +22,6 @@ Note that you can use this function to simulate a vector of constrained normal r
 To load the data for this exercise, run the code below
 
 ```{r}
-divorce = readr::read_csv("https://sta602-sp25.github.io/data/divorce.csv")
+divorce = readr::read_csv("https://sta602-sp26.github.io/data/divorce.csv")
 ```
 
