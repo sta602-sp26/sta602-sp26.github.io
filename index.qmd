@@ -103,8 +103,8 @@ schedule %>%
 |  | Thu Mar 26 | mixed effects models  | Ch. 11 | [📝](/notes/hierarchical-regression.pdf)[.R](/notes/glm-mixed-effects-example.R) |  |
 | 13 | Mon Mar 30 | lab: probit regression |  | [💻](/slides/probit-lab.html)  |  |
 |  | Tue Mar 31 | Hamiltonian Monte Carlo|[📖](/readings/readHMC.html)  | [🗒](/notes/HamiltonianMonteCarlo.html) |  |
-|  | Thu Apr 02 | exam II |  |  |  |
-| 14 | Mon Apr 06 | lab |  |  |  |
+|  | Thu Apr 02 | exam II |  | [💻](/slides/lab-exam2-review.html)  |  |
+| 14 | Mon Apr 06 | lab: exam review |  |  |  |
 |  | Tue Apr 07 | Bayesian inverse problems |  |  |  |
 |  | Thu Apr 09 | missing data  | Ch. 7 |  |  |
 | 15 | Mon Apr 13 | lab: inverse problem |  |  |  |
