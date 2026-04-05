@@ -20,7 +20,7 @@ library(tidyverse)
 Up-to-date as of April 5, 2026:
 
 ```{r}
-baseball <- read_csv("../data/baseball_4_5_26.csv")
+baseball <- read_csv("https://sta602-sp26.github.io/data/baseball_4_5_26.csv")
 glimpse(baseball)
 ```
 
