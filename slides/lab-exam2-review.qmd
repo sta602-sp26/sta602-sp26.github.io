@@ -1,0 +1,33 @@
+---
+title: "Exam II Review"
+format: 
+    revealjs:
+      mainfont: Lato
+      smaller: true
+---
+
+# Baseball at-bats and hits
+
+## Data: 2026 season
+
+```{r}
+#| echo: false
+#| message: false
+library(tidyverse)
+```
+
+
+Up-to-date as of April 5, 2026:
+
+```{r}
+baseball <- read_csv("https://sta602-sp26.github.io/data/baseball_4_5_26.csv")
+glimpse(baseball)
+```
+
+Data sourced from [https://www.espn.com/mlb/stats/player](https://www.espn.com/mlb/stats/player)
+
+## Exercise 
+
+- Write code to approximate the posterior (1d from exam 2, posted on Canvas).
+
+- Also, write a function `probHit(m, j)` that gives the probability of at least 1 hit in $m$ at-bats for player $j$, where player $j$ is identified by the row number in the `baseball` data frame. 

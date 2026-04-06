@@ -104,7 +104,7 @@ schedule %>%
 | 13 | Mon Mar 30 | lab: probit regression |  | [💻](/slides/probit-lab.html)  |  |
 |  | Tue Mar 31 | Hamiltonian Monte Carlo|[📖](/readings/readHMC.html)  | [🗒](/notes/HamiltonianMonteCarlo.html) |  |
 |  | Thu Apr 02 | exam II |  |  |  |
-| 14 | Mon Apr 06 | lab |  |  |  |
+| 14 | Mon Apr 06 | lab: exam review |  | [💻](/slides/lab-exam2-review.html)  |  |
 |  | Tue Apr 07 | Bayesian inverse problems |  |  |  |
 |  | Thu Apr 09 | missing data  | Ch. 7 |  |  |
 | 15 | Mon Apr 13 | lab: inverse problem |  |  |  |
