@@ -88,7 +88,7 @@ The [Interior Exploration using Seismic Investigations, Geodesy and Heat Transpo
 
 ### Data
 
-Watch the video [here](https://www.iris.edu/hq/inclass/animation/1component_seismogram_building_responds_to_p_s_surface_waves) to see the data that InSight collects from earthquakes on Mars.
+Watch the video [here](https://www.iris.edu/hq/inclass/animation/1component_seismogram_building_responds_to_p_s_surface_waves) to see the data that InSight collects from marsquakes.
 
 ```{r}
 seismic_data = data.frame(y = c(4.1, 2.5, 2589),
@@ -97,7 +97,7 @@ seismic_data = data.frame(y = c(4.1, 2.5, 2589),
 
 ### Parameter Table
 
-Here our parameter vector $\theta = (\alpha, \phi, \gamma_w, \kappa_m, \mu_m, \rho_m)$. These parameters describe the medium through which the earthquake waves propagate.
+Here our parameter vector $\theta = (\alpha, \phi, \gamma_w, \kappa_m, \mu_m, \rho_m)$. These parameters describe the medium through which the marsquake waves propagate.
 
 | Symbol in paper | Code       | Definition                  |
 |-----------------|------------|-----------------------------|
