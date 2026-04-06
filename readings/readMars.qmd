@@ -1,0 +1,12 @@
+---
+title: "Preparatory reading: Bayesian inverse problem example"
+# mainfont: Lato
+format: 
+  html:
+    toc: false
+---
+
+- [Liquid water in the Martian mid-crust by Wright et al.](https://www.pnas.org/doi/10.1073/pnas.2409983121)
+- [News article on the paper from Berkeley](https://news.berkeley.edu/2024/08/12/scientists-find-oceans-of-water-on-mars-its-just-too-deep-to-tap/)
+
+
