@@ -1,6 +1,6 @@
 ---
 title: "Homework 8"
-subtitle: "Due Wednesday April 16 at 5:00pm"
+subtitle: "Due Wednesday April 15 at 5:00pm"
 mainfont: Lato
 format: 
   html:
@@ -18,7 +18,7 @@ format:
 
 ## Exercise 3
 
-8.3 from Hoff: find the problem setup (definitions of each Greek letter) on page 132 and 133 of the book. Also see, e.g. the [notes on hierarchical modeling](https://sta602-sp25.github.io/notes/lec15-hierarchical-intro.html).
+8.3 from Hoff: find the problem setup (definitions of each Greek letter) on page 132 and 133 of the book. Also see, e.g. the [notes on hierarchical modeling](https://sta602-sp26.github.io/notes/lec15-hierarchical-intro.html).
 
 Run the code below to load the data.
 
@@ -29,6 +29,6 @@ library(glue)
 
 for(i in 1:8) {
 assign(paste0("school", i), 
-       read_csv(glue("https://sta602-sp25.github.io/data/school{i}.csv")))
+       read_csv(glue("https://sta602-sp26.github.io/data/school{i}.csv")))
 }
 ```
