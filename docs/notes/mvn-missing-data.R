@@ -5,7 +5,7 @@ library(tidyverse)
 library(mvtnorm)
 library(monomvn)
 library(coda)
-Y = read_csv("https://sta602-sp25.github.io/data/Pima.csv") %>%
+Y = read_csv("https://sta602-sp26.github.io/data/Pima.csv") %>%
   as.matrix() 
 colnames(Y) = NULL
 

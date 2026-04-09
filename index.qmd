@@ -106,7 +106,7 @@ schedule %>%
 |  | Thu Apr 02 | exam II |  |  |  |
 | 14 | Mon Apr 06 | lab: exam review |  | [💻](/slides/lab-exam2-review.html)  |  |
 |  | Tue Apr 07 | Bayesian inverse problems | [📖](/readings/readMars.html)  | [🗒](/notes/waterOnMars.html)  |[hw 8](/hw/hw08.html)  |
-|  | Thu Apr 09 | missing data  | Ch. 7 |  |  |
+|  | Thu Apr 09 | missing data  | Ch. 7 | [📝](/notes/mvn-missing-data-notes.pdf)[.R](/notes/mvn-missing-data.R) |  |
 | 15 | Mon Apr 13 | lab: inverse problem |  |  |  |
 |  | Tue Apr 14 | practice for final |  |  |  |
 :::
