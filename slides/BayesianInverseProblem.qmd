@@ -64,7 +64,7 @@ y$P = round(y$P + rnorm(n = 24, mean = 0, sd = .05*y$P))
 ```{r}
 #| warning: false
 #| message: false
-y = read_csv("https://sta602-sp25.github.io/data/E_coli.csv")
+y = read_csv("https://sta602-sp26.github.io/data/E_coli.csv")
 glimpse(y)
 ```
 

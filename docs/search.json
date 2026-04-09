@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bayesian statistical modeling and data analysis",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nnormal part II, risk and loss\nCh. 5\n📝\n\n\n\n6\nMon Feb 09\nlab: normal data and estimators\n\n💻\n\n\n\n\nTue Feb 10\nestimators\nCh. 5\n🗒📝\n\n\n\n\nThu Feb 12\npriors\n📖\n🗒📝\n\n\n\n7\nMon Feb 16\nlab: Jeffreys prior; exam review\n\n💻\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\nlab: recap\n\n💻\n\n\n\n\nTue Feb 24\nMetropolis algorithm\n📖\n🗒\nhw 5\n\n\n\nThu Feb 26\nMCMC diagnostics\nCh. 6, 10\n🗒 📝\n\n\n\n9\nMon Mar 02\nlab: Metropolis-Hastings\n\n💻💻\n\n\n\n\nTue Mar 03\nGibbs sampling\nCh. 6\n🗒 📝\n\n\n\n\nThu Mar 05\nmultivariate normal\nCh. 7\n🗒\nhw 6\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\nlab: office hours & regression review\n\n\n\n\n\n\nTue Mar 17\nBayesian regression\nCh. 9, background\n🗒 📝\nhw 7\n\n\n\nThu Mar 19\nhierarchical modeling\nCh. 8\n🗒📝\n\n\n\n12\nMon Mar 23\nlab: rstanarm\n\n💻\n\n\n\n\nTue Mar 24\nmodel averaging\nCh. 9 sec. 3\n🗒\n\n\n\n\nThu Mar 26\nmixed effects models\nCh. 11\n📝.R\n\n\n\n13\nMon Mar 30\nlab: probit regression\n\n💻\n\n\n\n\nTue Mar 31\nHamiltonian Monte Carlo\n📖\n🗒\n\n\n\n\nThu Apr 02\nexam II\n\n\n\n\n\n14\nMon Apr 06\nlab: exam review\n\n💻\n\n\n\n\nTue Apr 07\nBayesian inverse problems\n📖\n🗒\nhw 8\n\n\n\nThu Apr 09\nmissing data\nCh. 7\n📝.R\n\n\n\n15\nMon Apr 13\nlab: inverse problem\n\n\n\n\n\n\nTue Apr 14\npractice for final"
+    "text": "Schedule\n\n\n\n\n\nWeek\nDate\nTopic\nReading\nNotes\nAssignment\n\n\n\n\n1\nWed Jan 07\nlab: welcome\n\n💻\nhello R\n\n\n\nThu Jan 08\nintro, history, notation\nCh. 2\n\nhw 0\n\n\n2\nMon Jan 12\nlab: MLE review\n\n💻\n\n\n\n\nTue Jan 13\nprobability, exchangeability\nCh. 2\n🗒 📝\nhw 1\n\n\n\nThu Jan 15\nbeta-binomial model\nCh. 3\n🗒 📝\n\n\n\n3\nMon Jan 19\nNO CLASS\n\n\n\n\n\n\nTue Jan 20\nPoisson-gamma model, exp families\nCh. 3\n🗒 📝\nhw 2\n\n\n\nThu Jan 22\nreliability (conf. intervals, hpd, Laplace approx.)\nCh. 3\n🗒 📝\n\n\n\n4\nMon Jan 26\nlab: exp families and transformations\n\n💻\n\n\n\n\nTue Jan 27\nintro to Monte Carlo\n📖\n🗒\nhw 3\n\n\n\nThu Jan 29\npredictive checks and MC error\nCh. 4\n🗒 📝\n\n\n\n5\nMon Feb 02\nlab: mixture densities\n\n💻\n\n\n\n\nTue Feb 03\nthe normal model\nCh. 5\n🗒 📝\nhw 4\n\n\n\nThu Feb 05\nnormal part II, risk and loss\nCh. 5\n📝\n\n\n\n6\nMon Feb 09\nlab: normal data and estimators\n\n💻\n\n\n\n\nTue Feb 10\nestimators\nCh. 5\n🗒📝\n\n\n\n\nThu Feb 12\npriors\n📖\n🗒📝\n\n\n\n7\nMon Feb 16\nlab: Jeffreys prior; exam review\n\n💻\n\n\n\n\nTue Feb 17\nreview\n\n\n\n\n\n\nThu Feb 19\nexam I\n\n\n\n\n\n8\nMon Feb 23\nlab: recap\n\n💻\n\n\n\n\nTue Feb 24\nMetropolis algorithm\n📖\n🗒\nhw 5\n\n\n\nThu Feb 26\nMCMC diagnostics\nCh. 6, 10\n🗒 📝\n\n\n\n9\nMon Mar 02\nlab: Metropolis-Hastings\n\n💻💻\n\n\n\n\nTue Mar 03\nGibbs sampling\nCh. 6\n🗒 📝\n\n\n\n\nThu Mar 05\nmultivariate normal\nCh. 7\n🗒\nhw 6\n\n\n10\nMon Mar 09\nNO CLASS\n\n\n\n\n\n\nTue Mar 10\nNO CLASS\n\n\n\n\n\n\nThu Mar 12\nNO CLASS\n\n\n\n\n\n11\nMon Mar 16\nlab: office hours & regression review\n\n\n\n\n\n\nTue Mar 17\nBayesian regression\nCh. 9, background\n🗒 📝\nhw 7\n\n\n\nThu Mar 19\nhierarchical modeling\nCh. 8\n🗒📝\n\n\n\n12\nMon Mar 23\nlab: rstanarm\n\n💻\n\n\n\n\nTue Mar 24\nmodel averaging\nCh. 9 sec. 3\n🗒\n\n\n\n\nThu Mar 26\nmixed effects models\nCh. 11\n📝.R\n\n\n\n13\nMon Mar 30\nlab: probit regression\n\n💻\n\n\n\n\nTue Mar 31\nHamiltonian Monte Carlo\n📖\n🗒\n\n\n\n\nThu Apr 02\nexam II\n\n\n\n\n\n14\nMon Apr 06\nlab: exam review\n\n💻\n\n\n\n\nTue Apr 07\nBayesian inverse problems\n📖\n🗒\nhw 8\n\n\n\nThu Apr 09\nmissing data\nCh. 7\n📝.R\n\n\n\n15\nMon Apr 13\nlab: inverse problem\n\n💻\n\n\n\n\nTue Apr 14\npractice for final"
   },
   {
     "objectID": "slides/probit-lab.html",
@@ -110,5 +110,40 @@
     "title": "Homework 8",
     "section": "Exercise 3",
     "text": "Exercise 3\n8.3 from Hoff: find the problem setup (definitions of each Greek letter) on page 132 and 133 of the book. Also see, e.g. the notes on hierarchical modeling.\nRun the code below to load the data.\n\nlibrary(readr)\nlibrary(glue)\n\nfor(i in 1:8) {\nassign(paste0(\"school\", i), \n       read_csv(glue(\"https://sta602-sp26.github.io/data/school{i}.csv\")))\n}"
+  },
+  {
+    "objectID": "slides/BayesianInverseProblem.html#e.-coli",
+    "href": "slides/BayesianInverseProblem.html#e.-coli",
+    "title": "Inverse problem",
+    "section": "E. coli",
+    "text": "E. coli\n\n\nCode\nlibrary(tidyverse)\n\n\nE. coli grows in a petri dish according to the logistic growth equation,\n\\[\n\\frac{dP}{dt} = rP( 1 - \\frac{P}{K})\n\\]\nwhere \\(P(t)\\) is the population size at time \\(t\\), \\(r\\) is the per capita growth rate, and \\(K\\) is the carrying capacity of the dish.\nThis equation can be solved analytically (which is what makes this a toy example),\n\\[\nP(t) = \\frac{K}{1 + Ae^{-rt}}\n\\] where \\(A = \\frac{K - P_0}{P_0}\\) and \\(P_0\\) is the initial population size at time 0.\nBut what if we could not solve solve the equation in closed form and, instead, could only simulate from the data generative model given a set of parameter values \\(K\\), \\(r\\) and \\(P(0)\\)."
+  },
+  {
+    "objectID": "slides/BayesianInverseProblem.html#data",
+    "href": "slides/BayesianInverseProblem.html#data",
+    "title": "Inverse problem",
+    "section": "Data",
+    "text": "Data\nBacterial populations are measured in CFU (colony forming units). At time \\(t = 0\\), 1 colony forming unit was placed into a dish.\n\npopulationFunction = function(K, r, t) {\n  P0 = 1\n  A = (K - P0) / P0\n  round(K / (1 + (A * exp(-r * t))))\n}\n\nIn the past, CFU are counted manually in a small pipetted sample and then the CFU per unit volume are multiplied by the total volume in the dish to estimate the total population size of bacteria at a given time \\(t\\).\nA new machine has been created to replace this mundane task by automating the counting of CFUs in a sample. The machine counts the bacteria in the dish every fifteen minutes since the start of the experiment. Data are provided below.\n\ny = read_csv(\"https://sta602-sp26.github.io/data/E_coli.csv\")\nglimpse(y)\n\nRows: 24\nColumns: 2\n$ P    &lt;dbl&gt; 2, 3, 5, 8, 13, 22, 37, 64, 103, 186, 318, 542, 843, 1490, 2283, …\n$ time &lt;dbl&gt; 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 2…\n\n\nNote: time is in minutes."
+  },
+  {
+    "objectID": "slides/BayesianInverseProblem.html#model",
+    "href": "slides/BayesianInverseProblem.html#model",
+    "title": "Inverse problem",
+    "section": "Model",
+    "text": "Model\nWe know \\(P_0 = 1\\). Let \\(\\theta = \\{r, K\\}\\)\nWe assume the machine has some normal measurement error that is proportional to the size of the population. Thus the data generative model is given by\n\\[\nP(t) |r,K \\sim N(f(\\theta, t),\\sigma^2 f(\\theta, t))\n\\] where \\(f(\\theta, t)\\) is computed by populationFunction on the previous slide."
+  },
+  {
+    "objectID": "slides/BayesianInverseProblem.html#exercise",
+    "href": "slides/BayesianInverseProblem.html#exercise",
+    "title": "Inverse problem",
+    "section": "Exercise",
+    "text": "Exercise\nYour task is to determine the measurment error of the machine \\(\\sigma^2\\).\nIt is well known that E coli takes about 20 \\(\\pm 2.5\\) minutes in laboratory conditions to double in size. Given this, we’d expect \\(r\\) to be about \\(\\frac{\\log(2)}{20}\\).\nFurthermore, we know the carrying capacity of the petri dish is at least \\(10^8\\) CFU.\n\nIdentify each unknown.\nUse the information above to develop reasonable priors over each unknown.\nWrite pseudo-code of an MCMC sampler to make inference about the parameters.\n(optional) Implement your sampler."
+  },
+  {
+    "objectID": "slides/BayesianInverseProblem.html#solution",
+    "href": "slides/BayesianInverseProblem.html#solution",
+    "title": "Inverse problem",
+    "section": "Solution",
+    "text": "Solution\nThe unknowns are \\(r, K, \\sigma^2\\).\nMaybe we think it takes somewhere between 15 minutes and 25 minutes for the population size to double under our lab conditions. Some plausible prior choices are\n\\[\n\\begin{aligned}\nr &\\sim \\text{Uniform}(\\log(2)/25, \\log(2)/15)\\\\\nK &\\propto 1 \\text{ if } K &gt; 10^8\\\\\\\n\\sigma^2 &\\sim \\text{inverse-gamma}(1, 1)\n\\end{aligned}\n\\]\nPseudocode:\ninitialize r, K, sigma^2 \nS = large number\nfor (i in 1:S) {\n - sample r* ~ cnorm(1, r_s, .01, a = log(2)/25, b = log(2)/15)\n - compute MH ratio: [posterior(r*)/posterior(r_s)] * [J(r_s | r*)/J(r* | r_s)]\n - accept/reject\n - sample K* ~ cnorm(1, K_s, 1E5, a = 1E8)\n - compute MH ratio like above and accept/reject\n - sample sigma^2* ~ cnorm(1, sigma^2_s, .1, a = 0)\n - compute MH ratio like above and accept/reject\n}"
   }
 ]
